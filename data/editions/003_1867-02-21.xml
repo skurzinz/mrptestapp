@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Nr. 3 Ministerrat, Wien, 21. Februar 1867</title>
+                <title type="sub">Band I 1867</title>
+                <author>Malfer, Stefan</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-04-14</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-10-05T09:45:45Z</date>
+                    <name>Malfer, Stefan</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="bold">Nr. 3</hi>
+                <seg xml:space="preserve">  </seg>
+                <hi rend="bold">Ministerrat, Wien, 21. Februar 1867</hi>
+            </p>
+            <p>
+                <hi rend="italic" xml:space="preserve">RS. fehlt; Abschrift, </hi>
+                <hi rend="smallcaps">Ava.</hi>, Ministerratsprotokolle, Karton 33 (Abschriften Prof. Redlich); <hi rend="italic" xml:space="preserve">Wortlaut und Datum der Ah. Entschließung: </hi>
+                <hi rend="smallcaps">Hhsta</hi>., Kabinettskanzlei, Protokoll 1867.</p>
+            <p>
+                <hi rend="italic">P. Meyer; VS. Kaiser; anw. Beust, Komers, Wüllerstorff, John</hi>, <hi rend="italic">Becke; außerdem anw. Kussevich, Schlosser.</hi>
+            </p>
+            <p>I. Benehmen der Regierung in der kroatischen Angelegenheit. II. Fiumaner Eisenbahn. III. Regulierung der Donau bei Wien. IV. Plan des Slawenkongresses in Wien für Erlass einer Adresse.</p>
+            <p>KZ. 325 – MRZ. 130</p>
+            <p>Ministerratsprotokoll vom 21. Februar 1867 unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</p>
+            <p>I. <hi rend="underline">Se. Majestät</hi> geruhten auf die Agitation aufmerksam zu machen, welche aus Anlass des bevorstehenden Ausgleiches mit Ungarn in Kroatien von einer gewissen Partei ins Werk gesetzt werde<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Die Nationalliberale Partei forderte die Anerkennung der kroatischen Eigenstaatlichkeit (kroatisches Staatsrecht) und lehnte den staatsrechtlichen Ausgleich des Herrschers mit Ungarn allein ab; zur kroatischen Frage </hi>
+                            <hi rend="smallcaps">Gross</hi>, Die Anfänge des modernen Kroatien 110 ff.; <hi rend="smallcaps">Dies.,</hi> Der kroatische Sobor. <hi rend="italic">In:</hi> <hi rend="smallcaps">Rumpler – Urbanitsch</hi> (Hg.), Habsburgermonarchie 7/2, 2291 ff.; <hi rend="smallcaps">Žolger</hi>, Ausgleich 25−34.</p>
+                    </note>
+                </hi>, und wiesen darauf hin, dass sogar das amtliche Blatt<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="List Bullet"> <hi rend="italic" xml:space="preserve">Als amtliche Blätter galten die Agramer Zeitung und Narodne Novini, </hi>
+                            <hi rend="smallcaps">Švoger</hi>, Das kroatische Pressewesen.<hi rend="italic" xml:space="preserve"> In:</hi> <hi rend="smallcaps">Rumpler – Urbanitsch</hi> (Hg.), Habsburgermonarchie 8/2, 2152 <hi rend="italic" xml:space="preserve">und </hi>2155.</p>
+                    </note>
+                </hi> eine Sprache in neuester Zeit zu führen beginne, welche die Agitation zu nähren geeignet sei und die Vermutung begründen müsse, dass die Regierung in der Frage des Ausgleiches zwischen Ungarn und Kroatien auf dem Parteistandpunkte stehe, welchen der kroatische Landtag bisher eingenommen habe<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Ein Artikel der Agramer Zeitung mit diesem Inhalt war in </hi>
+                            <hi rend="smallcaps" xml:space="preserve">Die Presse </hi>v. 20. 2. 1867, 3, <hi rend="italic">zitiert und besprochen worden. Der kroatische Landtag war, nach der Verabschiedung der antidualistischen Adresse v. 19. 12. 1866, am 4. 1. 1867 vertagt worden, MR. v. 2. 1. 1867/I,</hi> <hi rend="smallcaps">Ömr.</hi> VI/2, Nr. 122.</p>
+                    </note>
+                </hi>. Eine solche Vermutung dürfe man nicht aufkommen lassen, indem es Aufgabe der Regierung sei, bei diesem Ausgleichswerke, welches nur durch eine gegenseitige Verständigung der beiden Landtage zustande gebracht werden könne, jeden Schein einer Parteinahme zu vermeiden und weder nach der einen noch nach der anderen Seite eine parteiliche Pression auszuüben.</p>
+            <p>Nur auf Grundlage des historischen Rechtsbodens sei das Zustandekommen eines dauernden Ausgleiches möglich, und hier sei es angezeigt, dass die Zentralregierung für die Förderung des Ausgleichswerkes auf dieser Rechtsgrundlage ihren vermittelnden Einfluss geltend mache. Nach diesem Rechtsboden habe Kroatien zu dem ungarischen Krönungslandtage seine Deputierten zu entsenden und das Inauguraldiplom<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Krönungsdiplom; siehe dazu</hi> <hi rend="smallcaps">Bernatzik</hi>, Verfassungsgesetze 11, Anm. 1.</p>
+                    </note>
+                </hi> mitunterfertigen zu lassen. Damit stehe aber im vollkommenen Widerspruche das Gebaren einer gewissen Partei, welche von der Gründung eines südslawischen dreieinigen Königreiches träume und zu dessen Realisierung die volle Ablösung vom Königreiche Ungarn, die Inkorporierung Dalmatiens und die Aufhebung der Militärgrenze verlange. Diesem Parteitreiben, welches namentlich von der kroatischen Presse genährt werde, soll von der kroatischen Regierung entgegengetreten werden und namentlich in dem amtlichen Organe und den ihrem Einflusse zugänglichen Blättern eine Sprache geführt werden, welche über die Absichten der Zentralregierung keinen Zweifel aufkommen lasse.</p>
+            <p>Der <hi rend="underline">Ministerpräsident Baron v. Beust</hi> bemerkte, dass die kroatische Presse dem Einflusse der Pressleitung vollkommen entzogen sei<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Die zum Staatsministerium gehörende </hi>Preßleitung <hi rend="italic" xml:space="preserve">war, so wie das Ministerium selbst, nur für die cisleithanischen Länder zuständig; </hi>
+                            <hi rend="smallcaps">Olechowski</hi>, Entwicklung des Preßrechts 467 f.</p>
+                    </note>
+                </hi>. Er werde übrigens veranlassen, dass von der hierortigen Presse, welche dem Einflusse der Regierung zugänglich sei, im Sinne der von Sr. Majestät Ag. gegebenen Andeutungen über den Ausgleich zwischen Ungarn und Kroatien gesprochen, so wie er auch nicht ermangeln werde, dem ungarischen Ministerpräsidenten Grafen Andrássy über das Verhalten und die Einflussnahme der Zentralregierung die beruhigendsten Aufklärungen zu geben<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Ein Schreiben Beusts an Andrássy in dieser Angelegenheit ist in </hi>
+                            <hi rend="italic smallcaps">Ava</hi>
+                            <hi rend="italic">., Ministerratspräsidium, nicht erhalten.</hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>Der<hi rend="underline" xml:space="preserve"> kroatische Hofkanzler Freiherr v. Kussevich</hi> machte darauf aufmerksam, dass es schwer sei, mit den gegenwärtigen Beamten in Kroatien einer südslawischen Agitation entgegenzutreten, indem die bestellten Obergespäne, deren Ernennung aus dem Jahre 1861 sich herschreibe, der südslawischen Partei angehören und von ihr auf den Sessel gehoben worden seien. In seiner Stellung vermeide er es sorgfältig, nach irgendeiner Richtung eine politische Pression auszuüben, und beschränke sich einfach auf die Geschäftsleitung. Allein auch diese werde mit solchen Beamten bald eine Unmöglichkeit, und es tue daher dringend Not, dass Änderungen in dem Beamtenpersonale vorgenommen werden.</p>
+            <p>Der <hi rend="underline">Kriegsminister Freiherr v. John</hi> warnte namentlich vor jeder auf Kroatien auszuübenden Pression im ungarischen Sinne und wies darauf hin, dass es Sache des ungarischen Landtages und der ungarischen Regierung sei, durch freundliches Entgegenkommen die Sache des Ausgleiches mit Kroatien zu fördern.</p>
+            <p>In diesem Sinne äußerten sich auch die Minister <hi rend="underline">Ritter v. Komers</hi> und <hi rend="underline">Freiherr v. Wüllerstorff</hi>, wobei der erstere namentlich darauf hinwies, dass eine Verständigung mit Kroatien unmöglich sei, wenn Ungarn nicht<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Wohl Verschreibung statt des Wortes </hi>sich. <hi rend="italic">Ein Festhalten Ungarns an den 1848er Gesetzen war mit einer Verständigung zwischen Ungarn und Kroatien unvereinbar, vgl. Anm. 8.</hi>
+                        </p>
+                    </note>
+                </hi> steif an [den] 48er Gesetzen, welche übrigens in Kroatien nie publiziert wurden, festhalte<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Die ungarischen Gesetzartikel des Jahres 1848 hatten die kroatische Autonomie abgeschafft: Ges. Art. V</hi> über die Wahl der Reichstagsabgeordneten auf Grundlage der Volksvertretung<hi rend="italic" xml:space="preserve"> berief in den §§ 5, 53 und 54 Abgeordnete aus Kroatien, Slawonien samt Fiume und der Militärgrenze; ein kroatischer Landtag war nicht mehr vorgesehen, er wurde </hi>Provinzial-Kongregation <hi rend="italic">genannt; in der Folge hatte der kroatische Landtag alle die Rechte Kroatiens verletzenden Beschlüsse des ungarischen Landtages für nichtig erklärt,</hi> <hi rend="smallcaps" xml:space="preserve">Bernatzik, </hi>Verfassungsgesetze 80 ff. <hi rend="italic" xml:space="preserve">und </hi>Nr. 30; <hi rend="smallcaps" xml:space="preserve">Gross, </hi>Der kroatische Sobor. <hi rend="italic">In:</hi> <hi rend="smallcaps">Rumpler – Urbanitsch</hi> (Hg.), Habsburgermonarchie 7/2, 2286<hi rend="italic" xml:space="preserve">. </hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>
+                <hi rend="underline">Se. Majestät</hi> geruhten sodann sich Ah. dahin auszusprechen, dass im Sinne der gegebenen Andeutungen von dem Ministerpräsidenten ein Schreiben an den Banus<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Joseph Freiherr v. Šokčević.</hi>
+                        </p>
+                    </note>
+                </hi> erlassen und derselbe beauftragt werde, in diesem Sinne seinen Einfluss sowohl auf die Presse als auch auf andere Faktoren des öffentlichen Lebens geltend zu machen. In dieser Richtung wäre auch die hierortige Presse zu beeinflussen. Dem Grafen Andrássy wäre von dem Erlasse an den Banus abschriftlich Mitteilung zu machen<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Dazu sind in </hi>
+                            <hi rend="italic smallcaps">Ava</hi>
+                            <hi rend="italic">., Ministerratspräsidium, keine Akten erhalten.</hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>II. Se. Majestät frug diesfalls nach dem Stande der Sache, da in Fiume in neuerer Zeit Beunruhigung herrsche, als habe es von dem Projekte sein Abkommen gefunden!<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Gemeint ist die gemäß der Konzessionsurkunde v. 23. 9. 1858 von der Südbahngesellschaft nach Ablauf des Jahres 1865 zu errichtende Flügelbahn von St. Peter nach Fiume, </hi>
+                            <hi rend="smallcaps">Kohn (Konta)</hi>, Eisenbahnjahrbuch 3 (1870) 75. <hi rend="italic" xml:space="preserve">Zu den Befürchtungen siehe z. B. Korrespondenz aus Fiume, </hi>
+                            <hi rend="smallcaps" xml:space="preserve">Neues Fremden-Blatt </hi>v. 24. 12. 1866.</p>
+                    </note>
+                </hi>
+            </p>
+            <p>
+                <hi rend="underline">Freiherr v. Wüllerstorff</hi> gab hierauf den Aufschluss, dass diese Beunruhigung vollkommen grundlos sei, indem für den Beginn des Baues vom Handelsministerium ein fixer Termin gesetzt worden sei und man die Südbahngesellschaft streng zur Einhaltung desselben verhalten werde<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Siehe MR. v. 22. 11. 1865/II, </hi>
+                            <hi rend="smallcaps">Ömr.</hi> VI/1, Nr. 27.</p>
+                    </note>
+                </hi>. Das grundlose Gerücht von einer Sistierung des Baues rühre von einem Projekte des Betriebsdirektors von Portouse<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Wohl Verschreibung für Bontoux, wie der Betriebsdirektor der Südbahngesellschaft hieß. Paul Eugène Bontoux publizierte Arbeiten über Wirtschafts- und Eisenbahnfragen, insbesondere befürwortete er die Anbindung der Getreideanbaugebiete Ungarns im Wege der Südbahn an den Hafen Triest, siehe z. B. </hi>
+                            <hi rend="smallcaps">Neues Fremden-Blatt</hi> v. 1., 8. <hi rend="italic">und</hi> 10. 10. 1866. <hi rend="italic">Es ist nicht klar, welches Projekt hier genau gemeint ist.</hi>
+                        </p>
+                    </note>
+                </hi> her, das auf Anlegung einer Lokomobilstrasse hinauslaufe. Dieses Projekt sei aber ganz fallen gelassen worden<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">In der Folge bemühte sich die Südbahngesellschaft mit Erfolg um eine Verbesserung der Konditionen gegenüber der Konzessionsurkunde von 1858; dazu </hi>
+                            <hi rend="smallcaps">Hhsta</hi>., Kab. Kanzlei, KZ. 3587/1867; <hi rend="italic">Gutachten des Staatsrates</hi> ebd. RR., GA. 435/1867; <hi rend="italic" xml:space="preserve">Vortrag des Finanzministers v. 11. 2. 1868, Präs. 5237, </hi>ebd. Kab. Kanzlei, KZ. 544/1868<hi rend="italic" xml:space="preserve">. Die Verhandlungen führten zum Übereinkommen v. 27. 7. 1869, </hi>
+                            <hi rend="smallcaps">Rgbl.</hi> Nr. 138/1869. <hi rend="italic">Die Bahn wurde 1873 fertiggestellt,</hi>
+                            <hi rend="smallcaps" xml:space="preserve"> Kohn (Konta)</hi>, Eisenbahnjahrbuch 3 (1870) 73−78. <hi rend="italic" xml:space="preserve">Zur Eisenbahnverbindung Fiumes mit Kroatien (kroatische Eisenbahn Semlin-Fiume) siehe MR. v. 8. 4. 1867/II. </hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>III. <hi rend="underline">Se. Majestät</hi> verlangte Aufschluss über den Stand dieser Angelegenheit. In den öffentlichen Blättern werde diesfalls viel Lärm geschlagen und behauptet, dass die Regierung in der Sache gar nichts zu tun beabsichtige. In dem gleichen Sinne werde von der Gemeindebehörde agitiert, und sei ihm eine Eingabe des Gemeinderates des Stadt Wien durch eine Deputation überreicht worden<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> Die Gemeinde Wien um Wiederaufnahme der Verhandlungen wegen Regulierung der Donau und Sistierung aller dieser Verhandlung vorgreifenden Verfügungen, <hi rend="italic" xml:space="preserve">vorgelegt vom Staatsministerium am 18. 2. 1867, </hi>
+                            <hi rend="smallcaps">Hhsta</hi>., Kab. Kanzlei, Bittschriftenprotokoll Nr. 4927/1867. <hi rend="italic" xml:space="preserve">In zwei weiteren Bittschriften, vorgelegt am 9. 3. 1867 und am 31. 3. 1867, sprachen sich die Gemeinde und der Landesausschuss gegen die beabsichtigte Befestigung Wiens mit dem Argument aus, dass dadurch die Donauregulierung in Frage gestellt werde, </hi>ebd., Nr. 6446/1867 <hi rend="italic" xml:space="preserve">und </hi>Nr. 9007/1867. <hi rend="italic">Zur geplanten Befestigung Wiens siehe MR. v. 16. 6. 1867/II.</hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>Der dieser Angelegenheit wegen in die Sitzung berufene <hi rend="underline">Sektionschef des Staatsministeriums v. Schlosser</hi> erteilte hierüber den Aufschluss: Schon unter dem Ministerium Schmerling sei das Projekt einer Donauregulierung bei Wien zur Sprache gekommen und von Sachkundigen Pläne in verschiedener Richtung ausgearbeitet worden<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Vortrag Schmerlings v. 4. 2. 1864, Z. 14449/1864, mit zur Kenntnis nehmender Ah. E. v. 8. 2. 1864,</hi> <hi rend="smallcaps">Hhsta</hi>., Kab. Kanzlei, KZ. 338/1864. <hi rend="italic" xml:space="preserve">Siehe aber bereits MR. v. 21. 6. 1848/XII, </hi>
+                            <hi rend="smallcaps">Ömr</hi>. I, Nr. 79, <hi rend="italic" xml:space="preserve">und MR. v. 8. 3. 1849II, </hi>ebd. II/1, Nr. 29.</p>
+                    </note>
+                </hi>. Die einen Pläne gehen auf eine Verlegung und Näherziehung des großen Donaubettes zur Stadt Wien, ein anderer, von Ministerialrat Pasetti<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Florian Pasetti Ritter v. Friedenburg, Ministerialrat im Handelsministerium.</hi>
+                        </p>
+                    </note>
+                </hi> ausgearbeiteter Plan befürworte bloß eine Korrektion des alten Bettes, eine Korrektion des Donaukanales und den Bau eines Hafens an diesem Kanale<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Zu den zwei Denkschulen siehe </hi>
+                            <hi rend="smallcaps">Mohilla</hi> – <hi rend="smallcaps">Michlmayr</hi>, Donauregulierung, Blätter 6.13 <hi rend="italic" xml:space="preserve">und </hi>6.15<hi rend="italic">.</hi>
+                        </p>
+                    </note>
+                </hi>.</p>
+            <p>Für eine Verlegung des Donaubettes agitiere namentlich der Gemeinderat, ohne näher sich darüber auszusprechen, mit welchen Mitteln und von wem die immensen Kosten einer solchen Verlegung gedeckt werden sollen. In gleicher Richtung zeige sich auch der Landesausschuss tätig. In einer aus Abgeordneten aller beteiligten Ministerien zusammengesetzten Kommission sei jedoch einstimmig das Projekt einer Verlegung des Donaustrombettes verworfen und diese Ansicht auch von den Ministerien gebilligt worden<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Pasetti konnte sich in der Donauregulierungskommission mit seiner Ansicht – Ablehnung des Durchstiches und Belassung der Donau im Hauptbett − bis zur Pensionierung im Jänner 1868 durchsetzen, </hi>ebd., Blatt 7.1.</p>
+                    </note>
+                </hi>.</p>
+            <p>
+                <hi rend="underline">Se. Majestät</hi> geruhten hierauf die Weisung zu erteilen, dass über das von der Kommunaldeputation eingereichte und signierte Gesuch nach Inhalt der diesfalls von den Ministerien gefassten Beschlüsse Vortrag erstattet und im Sinne dieser Beschlüsse in dieser Angelegenheit weiter vorgegangen werde<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Den Auftrag erfüllte Taaffe mit dem Vortrag v. 5. 5. 1867, Z. 4903, über das Ah. bezeichnete Gesuch des Gemeinderates; der Kaiser resolvierte den Vortrag am 15. 5. 1867: </hi>Ich nehme den Inhalt dieses Vortrages zur Kenntnis und sehe seinerzeit Ihren Anträgen über das Ergebnis der Donauregulierungsverhandlung entgegen, <hi rend="smallcaps">Hhsta</hi>., Kab. Kanzlei, KZ. 1992/1867. <hi rend="italic" xml:space="preserve">Die Anträge der Donauregulierungskommission zur Regulierung der Donau bei Wien von Nußdorf bis Fischamend, nach denen die Donau mittels eines Durchstiches näher an die Stadt herangeführt werden sollte, lagen am 27. 7. 1868 vor. Sie wurden mit Vortrag des Ministers des Innern v. 10. 9. 1868, Präs. 4070, vorgelegt und mit Ah. E. v. 12. 9. 1868 genehmigt, </hi>ebd. KZ. 3318/1868, <hi rend="italic" xml:space="preserve">Publikation </hi>
+                            <hi rend="smallcaps">Wiener Zeitung</hi> v. 18. 9. 1868. <hi rend="italic" xml:space="preserve">Zur Donauregulierung siehe </hi>
+                            <hi rend="smallcaps">Czeike</hi>, Historisches Lexikon Wien 2, 72 f. <hi rend="italic" xml:space="preserve">mit Literatur; </hi>
+                            <hi rend="smallcaps">Csendes</hi> – <hi rend="smallcaps">Oppl</hi> (Hg.), Wien 3, 140 ff. <hi rend="italic" xml:space="preserve">und </hi>196; <hi rend="smallcaps">Mohilla</hi> – <hi rend="smallcaps">Michlmayr</hi>, Donauregulierung.</p>
+                    </note>
+                </hi>.</p>
+            <p>IV. Der <hi rend="underline">Ministerpräsident Baron v. Beust</hi> legte ein Schreiben des Statthalters von Galizien vor<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Dieses Schreiben ist in </hi>
+                            <hi rend="italic smallcaps">Ava</hi>
+                            <hi rend="italic">., MI., nicht erhalten.</hi>
+                        </p>
+                    </note>
+                </hi>, worin derselbe anzeigt, dass, wie ihm vertraulich zur Kenntnis gekommen, der Slawenkongress in Wien<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Damit ist die Zusammenkunft föderalistischer Abgeordneter im Hotel </hi>Österreichischer Hof<hi rend="italic" xml:space="preserve"> in Wien am 15. 2. 1867 gemeint, über die in den Zeitungen mit unterschiedlichen Bezeichnungen berichtet wurde, z. B. </hi>Slaven-Kongreß, Slaven-Konferenz, Föderalisten-Konferenz, <hi rend="italic" xml:space="preserve">z. B. </hi>
+                            <hi rend="smallcaps" xml:space="preserve">Die Presse </hi>v. 16. 2. 1867, <hi rend="smallcaps">Neue Freie Presse</hi> v. 16. <hi rend="italic" xml:space="preserve">und </hi>17. 2. 1867, <hi rend="smallcaps">Das Vaterland</hi> v. 16. 5. 1867. <hi rend="italic">Auch die deutsch-liberalen Abgeordneten hatten Konferenzen abgehalten.</hi>
+                        </p>
+                    </note>
+                </hi> beschlossen habe, sich in einer Adresse an Se. Majestät zu wenden, worin das Festhalten an der kaiserlichen Zusage, dass bei Konstituierung der Monarchie die Stimmen des Landes gehört werden sollen<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic" xml:space="preserve">Bezugnahme auf die Zusage im Sistierungspatent v. 20. 9. 1865, </hi>
+                            <hi rend="smallcaps" xml:space="preserve">Rgbl. </hi>Nr.<hi rend="smallcaps" xml:space="preserve"> 89/1865, </hi>
+                            <hi rend="italic" xml:space="preserve">die Ergebnisse der Verhandlungen mit Ungarn und Kroatien </hi>den legalen Vertretern der anderen Königreiche und Länder vorzulegen, um ihren gleichgewichtigen Ausspruch zu vernehmen und zu würdigen.</p>
+                    </note>
+                </hi>, ausgesprochen wird<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Gemeint war, dass die jeweiligen Landtage derartige Adressen beschließen sollten.</hi>
+                        </p>
+                    </note>
+                </hi>. Der Landtag<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Hier: der galizische Landtag.</hi>
+                        </p>
+                    </note>
+                </hi> erkenne die Notwendigkeit einer gemeinsamen Verständigung zur Wahrung der Existenzbedingungen der Monarchie, erkläre daher auch sich bereit, eine beratende Versammlung zu beschicken, in welcher die Länder als solche vertreten wären, in deren Aufgabe es läge, die Verständigung anzubahnen, wobei in den die staatsrechtliche Stellung der Länder betreffenden Angelegenheiten die Voten der Landtage vorbehalten blieben.</p>
+            <p>Graf Gołuchowski ersucht um Verhaltungsbefehle, wenn eine Vorlage in diesem Sinne an den Landtag gemacht werden sollte.</p>
+            <p>Man einigte sich dahin, an die Statthalter von Böhmen, Mähren und Krain telegrafisch die Weisung ergehen zu lassen, dass die Wahlen in den Reichsrat ohne Vorbehalt und Verwahrung zu geschehen haben und die Beratung einer Adresse vor der Wahl nicht zulässig sei<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Das ging also über den Beschluss in MR. I. v. 19. 2. 1867/II hinaus.</hi>
+                        </p>
+                    </note>
+                </hi>. Dem Grafen Gołuchowski wäre zu telegrafieren, dass er im Wege der Verständigung versuchen soll, an dem Vorhaben einer Adresse den Landtag abzubringen, um einen Konflikt mit der Regierung zu vermeiden, welche konsequent vorgehen werde<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text"> <hi rend="italic">Fortsetzung zu Galizien MR. I. v. 1. 3. 1867/I. Der galizische Landtag wurde nicht aufgelöst. Zur galizischen Autonomie siehe</hi> <hi rend="italic smallcaps">MR. v. 6. 2. 1867,</hi> <hi rend="smallcaps">Ömr</hi>. <hi rend="smallcaps" xml:space="preserve">VI/2, </hi>Nr<hi rend="smallcaps" xml:space="preserve">. 126; Redlich, </hi>Staats- und Reichsproblem<hi rend="smallcaps" xml:space="preserve"> 2, 619−624; Grodziski</hi>, Der Landtag des Königreiches Galizien und Lodomerien. <hi rend="italic" xml:space="preserve">In: </hi>
+                            <hi rend="smallcaps" xml:space="preserve">Rumpler – Urbanitsch, </hi>Habsburgermonarchie 7/2, 2160 ff.; <hi rend="smallcaps">Maner</hi>, Galizien 132−139.</p>
+                    </note>
+                </hi>.</p>
+            <p>Wien, am 21. Februar 1867.</p>
+            <p>Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. 9. März 1867.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Im Jänner 1867 traten die Verhandlungen der kaiserlichen Regierung mit den Vertretern des ungarischen Landtags über den Ausgleich mit Ungarn in ihr Endstadium. Am 1. Februar kam es im Ministerrat zur finalen Auseinandersetzung zwischen dem Staatsminister Belcredi und dem Minister des Äußern Beust. Der Kaiser nahm Belcredis Rücktritt an, Beust wurde Ministerpräsident. Am 17. Februar ernannte er Andrássy zum ungarischen Ministerpräsidenten. Der Ausgleich samt Krönung Franz Josephs zum ungarischen König war in Gang gebracht.
+        Was bedeuteten diese Entscheidungen für das Organ Ministerrat? Für Beust ging es in der Folge darum, die maßgebenden politischen Kräfte in Cisleithanien zu gewinnen, die unwiderrufliche Vereinbarung mit Ungarn zu akzeptieren. Die Landtage konnten durch die schwere Hand der Regierung diszipliniert werden, beim Reichsrat und seiner Mehrheit, der deutschliberalen Verfassungspartei, war das nicht möglich. Ihnen musste die Regierung Zugeständnisse machen. Der Preis für die Akzeptanz des Ausgleichs mit Ungarn waren einige grundlegende Gesetze für Cisleithanien: Ministerverantwortlichkeit, Notverordnungsrecht, Vereins- und Versammlungsfreiheit und schließlich die Staatsgrundgesetze der Dezemberverfassung. 
+    </description>
+    <author ref="http://d-nb.info/gnd/129199176">Peter Andorfer</author>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>mp-app</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" user="admin" group="dba" mode="rw-rw-r--"/>
+
+<deployed>2017-10-05T11:24:59.684+02:00</deployed>
+</meta>

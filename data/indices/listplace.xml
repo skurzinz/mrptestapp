@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ortsverzeichnis</title>
+                <respStmt>
+                    <resp>providing the content</resp>
+                    <name>Max Mustermann</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Ortsverzeichnis</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="index_places">
+                <listPlace>
+                    <place xml:id="wien">
+                        <placeName>Wien</placeName>
+                        <location>
+                            <geo decls="#LatLng">48.2082 16.37169</geo>
+                        </location>
+                        <idno type="URL">http://www.geonames.org/2761367/wien.html</idno>
+                    </place>
+                </listPlace>
+            </div>
+        </body>
+    </text>
+</TEI>

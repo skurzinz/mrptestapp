@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personenverzeichnis</title>
+                <respStmt>
+                    <resp>providing the content</resp>
+                    <name>???</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Personenverzeichnis</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="index_persons">
+                <listPerson>
+                    <person xml:id="test123">
+                        <persName>
+                            <forename>Max</forename>
+                            <surname>Mustermann</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>
