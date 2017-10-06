@@ -71,7 +71,7 @@
                                 <a href="places.html">Orte</a>
                             </li>
                             <li>
-                                <a href="terms.html">Schlagworte</a>
+                                <a href="books.html">Referenzen</a>
                             </li>
                         </ul>
                     </li>
@@ -151,9 +151,9 @@
                 var dataKey = $( this ).attr('data-key');
                 var xsl = dataType.replace(".xml", "");
                 var baseUrl = "showNoTemplate.html?directory=indices&amp;document="
-                var url = baseUrl+dataType+"&amp;stylesheet="+xsl+"&amp;entiyID="+dataKey;
-               // console.log([baseUrl, dataKey, dataType]);
-               // console.log(url);
+                var url = baseUrl+dataType+"&amp;stylesheet=node2html&amp;entiyID="+dataKey;
+                console.log([baseUrl, dataKey, dataType]);
+                console.log(url);
             $('#loadModal').load(url, function(){
             $('#myModal').modal('show');
             });

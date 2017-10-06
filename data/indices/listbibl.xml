@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exported from Zotero</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Generated from Zotero database</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <biblStruct type="journalArticle" xml:id="Angetter2016" corresp="http://zotero.org/users/4361274/items/6ZC7MYF3">
+                    <analytic>
+                        <title level="a">Die Militärgrenze: Von der Sicherheits- und Pufferzone zur
+                            neuen EU-Außengrenze</title>
+                        <title type="short">Die Militärgrenze</title>
+                        <author>
+                            <forename>Daniela</forename>
+                            <surname>Angetter</surname>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">978-3-9503061-9-4</title>
+                        <imprint>
+                            <biblScope unit="page">207−244</biblScope>
+                            <date>2016</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Haider-Wilson2016" corresp="http://zotero.org/users/4361274/items/TD7GX3KU">
+                    <monogr>
+                        <title level="m">Orient &amp; Okzident: Begegnungen und Wahrnehmungen aus
+                            fünf Jahrhunderten</title>
+                        <title type="short">Orient &amp; Okzident</title>
+                        <idno type="ISBN">978-3-9503061-9-4</idno>
+                        <author>
+                            <forename>Barbara</forename>
+                            <surname>Haider-Wilson</surname>
+                        </author>
+                        <author>
+                            <forename>Maximilian</forename>
+                            <surname>Graf</surname>
+                        </author>
+                        <edition>1. Auflage</edition>
+                        <imprint>
+                            <publisher>Wien, Neue Welt Verlag, November 2016</publisher>
+                            <date>2016</date>
+                            <note type="accessed">2017-10-05T11:08:35Z</note>
+                            <note type="url">http://media.obvsg.at/p-AC13378993-1001</note>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title level="s">Forschungen zu Orient und Okzident</title>
+                        <biblScope unit="volume">4</biblScope>
+                    </series>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Wandruszka2000" corresp="http://zotero.org/users/4361274/items/5FSY7VUG">
+                    <monogr>
+                        <title level="m">Die Habsburgermonarchie 1848 - 1918. 7: Verfassung und
+                            Parlamentarismus : 1. Verfassungsrecht, Verfassungswirklichkeit,
+                            zentrale Repräsentativkörperschaften</title>
+                        <title type="short">Die Habsburgermonarchie 1848 - 1918. 7</title>
+                        <idno type="ISBN">978-3-7001-2869-4</idno>
+                        <author>
+                            <forename>Adam</forename>
+                            <surname>Wandruszka</surname>
+                        </author>
+                        <author>
+                            <forename>Helmut</forename>
+                            <surname>Rumpler</surname>
+                        </author>
+                        <author/>
+                        <imprint>
+                            <pubPlace>Wien</pubPlace>
+                            <publisher>Verlder ÖsterrAkadder Wiss</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="journalArticle" xml:id="Bruckmüller2006" corresp="http://zotero.org/users/4361274/items/8VMA4CJV">
+                    <analytic>
+                        <title level="a">Die Gewalt der Angst. Lager- und Klassenbildung als
+                            Hintergrund des 15. Juli 1927</title>
+                        <author>
+                            <forename>Ernst</forename>
+                            <surname>Bruckmüller</surname>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">978-3-7028-0428-2</title>
+                        <imprint>
+                            <biblScope unit="page">27−40</biblScope>
+                            <date>2006</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Köhler2006" corresp="http://zotero.org/users/4361274/items/SKEA35DN">
+                    <monogr>
+                        <title level="m">Justizpalast in Flammen: ein brennender Dornbusch ; das
+                            Werk von Manès Sperber, Heimito von Doderer und Elias Canetti angesichts
+                            des 15. Juli 1927</title>
+                        <title type="short">Justizpalast in Flammen</title>
+                        <idno type="ISBN">978-3-7028-0428-2</idno>
+                        <author>
+                            <forename>Thomas</forename>
+                            <surname>Köhler</surname>
+                        </author>
+                        <imprint>
+                            <pubPlace>Wien, München</pubPlace>
+                            <publisher>Verlfür Geschichte uPolitik, Oldenbourg Wiss-Verl</publisher>
+                            <date>2006</date>
+                            <note type="accessed">2017-10-05T11:36:21Z</note>
+                            <note type="url">http://media.obvsg.at/p-AC04868761-1001</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Csendes2006" corresp="http://zotero.org/users/4361274/items/9C7MKQHP">
+                    <monogr>
+                        <title level="m">Wien: Geschichte einer Stadt. 3. Von 1790 bis zur
+                            Gegenwart</title>
+                        <title type="short">Wien</title>
+                        <author>
+                            <forename>Peter</forename>
+                            <surname>Csendes</surname>
+                        </author>
+                        <imprint>
+                            <publisher>Böhlau</publisher>
+                            <date>2006</date>
+                            <note type="accessed">2017-10-05T11:38:43Z</note>
+                            <note type="url">http://media.obvsg.at/p-AC03043652-1001</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Goldinger1957" corresp="http://zotero.org/users/4361274/items/XQ8SSZEI">
+                    <monogr>
+                        <title level="m">Geschichte des österreichischen Archivwesens</title>
+                        <author>
+                            <forename>Walter</forename>
+                            <surname>Goldinger</surname>
+                        </author>
+                        <imprint>
+                            <pubPlace>Wien</pubPlace>
+                            <biblScope unit="volume">Ergänzungsband 5</biblScope>
+                            <publisher>Berger</publisher>
+                            <date>1957</date>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title level="s">Mitteilungen des Österreichischen
+                        Staatsarchivs</title>
+                    </series>
+                </biblStruct>
+                <biblStruct type="book" xml:id="Wandruszka1975" corresp="http://zotero.org/users/4361274/items/72AM3WHC">
+                    <monogr>
+                        <title level="m">Die Habsburgermonarchie 1848 - 1918. 2. Verwaltung und
+                            Rechtswesen</title>
+                        <author>
+                            <forename>Adam</forename>
+                            <surname>Wandruszka</surname>
+                        </author>
+                        <author>
+                            <forename>Helmut</forename>
+                            <surname>Rumpler</surname>
+                        </author>
+                        <author/>
+                        <imprint>
+                            <publisher>Verlder ÖsterrAkadder Wiss</publisher>
+                            <date>1975</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

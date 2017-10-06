@@ -122,40 +122,27 @@ let $href := concat('show.html','?document=', app:getDocName($node))
  };
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
-let $indexSerachKey := $searchkey
-let $searchkey:= '#'||$searchkey
-for $title in collection($app:editions)//tei:TEI[.//*[@ref=$searchkey] | .//tei:term[./text() eq substring-after($searchkey, '#')]] 
-let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])
-let $snippet := 
-    for $entity in root($title)//*[@ref=$searchkey]
-            let $before := $entity/preceding::text()[1]
-            let $after := $entity/following::text()[1]
-            return
-                <p>... {$before} <strong><a href="{app:hrefToDoc($title)}"> {$entity/text()}</a></strong> {$after}...<br/></p>
-let $sender := fn:normalize-space($title//tei:rs[@role=contains($title//tei:rs/@role,'sender') and 1]/text()[1])
-        let $sender_nn := if(fn:exists($title//tei:rs[@role=contains($title//tei:rs/@role,'sender') and 1]/text()))
-                            then concat(functx:substring-after-last($sender,' '), ", ")
-                            else "ohne Absender"
-        let $sender_vn := functx:substring-before-last($sender,' ')
-        let $empfänger := fn:normalize-space($title//tei:rs[@role=contains($title//tei:rs/@role,'recipient') and 1]/text()[1])
-        let $empfänger_nn := if(fn:exists($title//tei:rs[@role=contains($title//tei:rs/@role,'recipient') and 1]/text()))
-                                then concat(functx:substring-after-last($empfänger,' '), ", ")
-                                else "ohne Empfänger"
-        let $empfänger_vn := functx:substring-before-last($empfänger,' ')
-        let $wo := if(fn:exists($title//tei:title//tei:rs[@type='place']))
-                     then $title//tei:title//tei:rs[@type='place']//text()
-                     else 'no place'
-        let $wann := data($title//tei:date/@when)[1]
-        let $zitat := $title//tei:msIdentifier
-return 
-        <tr>
-           <td>{$sender_nn}{$sender_vn}</td>
-           <td>{$empfänger_nn}{$empfänger_vn}</td>
-           <td align="center">{$wo}</td>
-           <td align="center"><abbr title="{$zitat}">{$wann}</abbr></td>
-           <td>{$hits}</td>
-           <td>{$snippet}<p style="text-align:right">({<a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>})</p></td>
-        </tr>   
+    let $indexSerachKey := $searchkey
+    let $searchkey:= '#'||$searchkey
+    for $title in collection($app:editions)//tei:TEI[.//*[@ref=$searchkey]] 
+        let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])
+        let $snippet := 
+            for $entity in root($title)//*[@ref=$searchkey]
+                    let $before := $entity/preceding::text()[1]
+                    let $after := $entity/following::text()[1]
+                    return
+                        <p>... {$before} <strong><a href="{app:hrefToDoc($title)}"> {$entity/text()}</a></strong> {$after}...<br/></p>
+        let $year := "1867"
+        let $month := "Februar"
+        let $protocol := $title//tei:title[@type="main"]/text()
+            return 
+                <tr>
+                    <td>{$year}</td>
+                    <td>{$month}</td>
+                    <td align="center">{$protocol}</td>
+                       <td>{$hits}</td>
+                       <td>{$snippet}<p style="text-align:right">({<a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>})</p></td>
+                    </tr>   
 };
  
 (:~
@@ -255,4 +242,25 @@ let $params :=
 </parameters>
 return 
     transform:transform($xml, $xsl, $params)
+};
+
+(:~
+ : creates a basic book-index derived from the  '/data/indices/listbook.xml'
+ :)
+declare function app:listBook($node as node(), $model as map(*)) {
+    let $hitHtml := "hits.html?searchkey="
+    for $item in doc(concat($config:app-root, '/data/indices/listbibl.xml'))//tei:biblStruct
+    let $shortTitle := $item//tei:title[first]/text()
+    let $longTitle := string-join($item//tei:title/text(), ', ')
+    let $authors : = string-join($item//tei:author//text(), ', ')
+    order by $item//tei:surname[first]
+        return
+        <tr>
+            <td>
+                <a href="{concat($hitHtml,data($item/@xml:id))}">{$authors}</a>
+            </td>
+            <td>{$longTitle}</td>
+            <td>{$item//tei:pubPlace}</td>
+            <td>{$item//tei:date}</td>
+        </tr>
 };
