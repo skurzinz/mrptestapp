@@ -85,6 +85,16 @@ declare function app:test($node as node(), $model as map(*)) {
         function was triggered by the data-template attribute <code>data-template="app:test"</code>.</p>
 };
 
+
+declare function app:selectStylesheet($node as node(), $model as map(*)) {
+    
+    let $stylelist := doc($config:app-root||'/transform/adds.xml')
+    
+    for $file in $stylelist//entry
+		return
+		  <option value="{$file/@file}">{$file/@label}</option>
+};
+
 (:~
 : returns the name of the document of the node passed to this function.
 :)
@@ -99,6 +109,20 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
 declare function app:hrefToDoc($node as node()){
 let $name := functx:substring-after-last($node, '/')
 let $href := concat('show.html','?document=', app:getDocName($node))
+    return $href
+};
+
+
+(:~
+ : href to document.
+ :)
+declare function app:hrefToDoc($node as node(), $stylesheet as xs:string){
+let $name := functx:substring-after-last($node, '/')
+let $href := if ($stylesheet != "") 
+    then
+        concat('show.html','?document=', app:getDocName($node), '&amp;xslt=', $stylesheet)
+     else
+        concat('show.html','?document=', app:getDocName($node))
     return $href
 };
 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.js"/>
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.widgets.js"/><!--pager plugin-->
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.pager.js"/>
+    <script> $(function() { $("table").tablesorter({ theme : "bootstrap", widthFixed: false,
+        headerTemplate : '{content} {icon}', widgets : [ "uitheme", "zebra" ], }) }); 
+    </script>
+    <div class="panel panel-default">
+        <div class="panel-heading" style="text-align: center;">
+            <h1>What about validation?</h1>
+        </div>
+        <div class="panel panel-body">
+            <div class="panel panel-default">
+                <div class="panel-heading" id="klickMe" style="text-align: center;">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="chartselector">select schema: </label>
+                            <select id="chartselector" class="form-control" name="schema">
+                                <option value="">---</option>
+                                <option data-template="validates:fetch_schemas"/>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="directory">select directory: </label>
+                            <select id="directory" class="form-control" name="directory">
+                                <option value="">---</option>
+                                <option value="staging">staging</option>
+                                <option value="editions">editions</option>
+                                <option value="indices">indices</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Check!</button>
+                    </form>
+                </div>
+                <div class="panel panel-body" id="hideMe">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>filename</th>
+                                <th>
+                                    valid?
+                                </th>
+                                <th>
+                                    What's the problem?
+                                </th>
+                                <th>
+                                    validation duration (ms)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-template="validates:toc_validates"/>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">31</title>
+                <title type="short">031-1867-06-16</title>
+                <meeting>
+                    <placeName>Wien</placeName>
+                    <orgName> Ministerrat</orgName>
+                    <date>16. Juni 1867</date>
+                </meeting>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="other">
+                <p>
+                    <hi rend="font-style:italic;">RS</hi>
+                    <hi rend="font-style:italic;">. fehlt; </hi>
+                    <hi rend="font-style:italic;">Abschrift, </hi>Ava., Ministerratsprotokolle, Karton 33 (Abschriften Prof. Redlich)<hi rend="font-style:italic;">; </hi>
+                    <hi rend="font-style:italic;">Wortlaut und Datum der Ah. Entschließung: </hi>Hhsta., Kabinettskanzlei, Protokoll 1867.</p>
+            </div>
+            <div type="pers">
+                <listPerson>
+                    <person role="protocol">
+                        <persName>Meyer</persName>
+                    </person>
+                    <person role="chair">
+                        <persName>Kaiser</persName>
+                    </person>
+                    <person>
+                        <persName>Beust</persName>
+                    </person>
+                    <person>
+                        <persName>Komers</persName>
+                    </person>
+                    <person>
+                        <persName>John</persName>
+                    </person>
+                    <person>
+                        <persName>Becke</persName>
+                    </person>
+                    <person>
+                        <persName>Taaffe</persName>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="reg">
+                <p>I. Gesetzentwurf über die Ministerverantwortlichkeit. II. Gesetzentwurf über die Delegationen. III. Ermächtigung zur sofortigen Sistierung der Befestigungsarbeiten.</p>
+            </div>
+            <div type="idno">
+                <p>
+                    <idno>KZ. 2411 – MRZ. 158</idno>
+                </p>
+            </div>
+            <div type="text">
+                <p>Ministerratsprotokoll vom 16. Juni 1867 unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</p>
+                <p>I. Der Ministerpräsident Freiherr v. Beust gab Kenntnis von zwei Abänderungen, welche nachträglich noch die Ministerkonferenz an dem Gesetzentwurfe über die Verantwortlichkeit der Minister vorzunehmen beschlossen habe<note type="footnote"/>.</p>
+                <p>Dieselbe habe sich nämlich dahin geeinigt, dass der zweite Absatz des § 10 folgende Fassung zu erhalten habe: „Die gesetzliche Folge dieser Verurteilung ist immer die Entfernung des Verurteilten aus dem Rate der Krone, es kann jedoch auch auf Versetzung des schuldig Befundenen in den Ruhestand mit dem normalmäßigen oder einem geringeren Personalbezuge oder auf gänzliche Entlassung aus dem Staatsdiente erkannt werden.“ Infolge dieser Bestimmung des § 10 käme sodann als § 12 ein neuer Paragraph, und zwar folgende Fassung, einzuschalten: „Der Kaiser wird zugunsten eines schuldig befundenen Ministers das Recht der Begnadigung und, falls auf Entlassung aus dem Staatsdienste erkannt wurde, das Recht auf Wiederanstellung oder auf Erteilung eines Ruhegenusses nicht ohne einen hierauf gestellten Antrag des Hauses der Abgeordneten ausüben.“</p>
+                <p>Freiherr v. Beust bemerkte, die Konferenz habe sich zu dieser Abänderung entschlossen, weil man damit dem Vorwurfe begegnen wollte, als könne nach der früheren Fassung ein selbst als schuldig befundener Minister ganz straflos ausgehen.</p>
+                <p>Se. Majestät geruhten zu erklären, dass gegen eine Änderung des § 10 und die Aufnahme eines neuen § 12 kein Anstand obwalte, wenn aus diesen beiden Paragraphen alles eliminiert werde, was auf Versetzung in den Ruhestand Bezug habe. Die Versetzung in den Ruhestand könne unter keinen Umständen als eine durch ein Gericht zu verhängende Strafe eines Beamten angesehen werden, es besitze hiezu keine Kompetenz und diese dürfte auch dem Gerichtshofe, welcher über die Verantwortlichkeit der Minister zu entscheiden habe, nicht eingeräumt werden<note type="footnote"/>.</p>
+                <p>Infolge dieser Bemerkung Sr. Majestät wurde beschlossen, den Absatz 2 des § 10 und den § 12 in folgender Fassung in den Entwurf aufzunehmen. § 10, Absatz 2: „Die gesetzliche Folge dieser Verurteilung ist immer die Entfernung des Verurteilten aus dem Rate der Krone, es kann jedoch auch auf gänzliche Entlassung des schuldig Befundenen aus dem Staatsdiente erkannt werden.“ § 12: „Der Kaiser wird zugunsten eines schuldig befundenen Ministers das Recht der Begnadigung nicht ohne einen hierauf gestellten Antrag des Hauses der Abgeordneten ausüben.“<note type="footnote"/>
+                </p>
+                <p>II. Der Ministerpräsident Freiherr v. Beust bemerkte, die Ministerkonferenz habe nach reiflicher Überlegung sich entschlossen, in dem früheren Gesetzentwurfe über die Delegationen den § 2 zu ändern<note type="footnote"/>.</p>
+                <p>Nach diesem hätte das Haus der Abgeordneten vierzig Mitglieder in die Delegation aus seiner Mitte zu wählen gehabt. Um allen Interessen gerecht zu sein und namentlich jedem Kronlande eine angemessene Vertretung in der Delegation zu sichern, habe man sich über folgenden Wahl- und Verteilungsmodus geeinigt. § 2 hätte nämlich zu lauten: „Das Herrenhaus hat die auf dasselbe entfallenden zwanzig Mitglieder der Delegation mittels absoluter Stimmenmehrheit aus seiner Mitte zu wählen. Die auf das Haus der Abgeordneten entfallenden vierzig Mitglieder werden in der Weise gewählt, dass die Abgeordneten der einzelnen Landtage nach dem nachstehenden Verteilungsmodus die Delegierten entsenden, wobei ihnen freisteht, dieselben aus ihrer Mitte oder aus dem Plenum des Hauses zu wählen. Es haben mittels absoluter Stimmenmehrheit zu wählen die Abgeordneten aus</p>
+                <p>Der Schluss zu diesem Verteilungsmodus liege darin, dass jedem der 17 Kronländer vorab ein Delegierter zugewiesen wurde und die übrig bleibenden 23 Delegierten nach der Anzahl der Reichsratsmitglieder eines jeden Kronlandes auf dieselben zu verteilen kommen.</p>
+                <p>Ferner, bemerkte der Ministerpräsident, habe die Konferenz beschlossen, die in dem ursprünglichen Entwurfe über den Reichssenat enthaltenen §§ 11, 12 und 13 in den Entwurf des Gesetzes über die Delegationen, wo sie fallen gelassen wurden, aufzunehmen, weil diese Lücke eines Mangels von Bestimmungen über Verantwortlichkeit des Reichsministeriums umso mehr in die Augen fallen müsste, als sie in dem 67er Elaborate enthalten seien. Die §§ 11 und 12 seien wörtlich aus dem Elaborate entnommen und § 13 sei nichts anderes, als eine Ergänzung dieser Bestimmungen.</p>
+                <p>Se. Majestät geruhten dagegen keine Einwendung zu erheben und seine Ermächtigung zur Einbringung beider Gesetzentwürfe auszusprechen<note type="footnote"/>.</p>
+                <p>III. Der Kriegsminister Freiherr v. John erbat sich von Sr. Majestät die mündliche Ermächtigung, schon morgen, Montag, die Befestigungsarbeiten einstellen zu dürfen, behielt sich jedoch vor, mit aller Beförderung einen au. Vortrag hierüber zu erstatten.</p>
+                <p>Sr. Majestät geruhten diese Ermächtigung zu erteilen<note type="footnote"/>.</p>
+                <p>Wien, 16. Juni 1867.</p>
+            </div>
+            <div type="other">
+                <p>Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Wien, 8. Juli 1867.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

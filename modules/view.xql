@@ -13,6 +13,8 @@ import module namespace templates="http://exist-db.org/xquery/templates" ;
  :)
 import module namespace config="http://www.digital-archiv.at/ns/mp-app/config" at "config.xqm";
 import module namespace app="http://www.digital-archiv.at/ns/mp-app/templates" at "app.xql";
+import module namespace validates="http://www.digital-archiv.at/ns/mp-app/validates" at "validates.xql";
+import module namespace w2tei="http://www.digital-archiv.at/ns/mp-app/w2tei" at "../transform/w2tei.xql";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 

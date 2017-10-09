@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">42</title>
+                <title type="short">042-1867-08-06</title>
+                <meeting>
+                    <placeName>Wien</placeName>
+                    <orgName> Ministerrat</orgName>
+                    <date>6. August 1867</date>
+                </meeting>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="other">
+                <p>
+                    <hi rend="font-style:italic;">Protokoll fehlt</hi>
+                    <hi rend="font-style:italic;">; zu I. </hi>Hhsta., JStr. 378/1867.</p>
+            </div>
+            <div type="pers">
+                <listPerson>
+                    <person role="protocol">
+                        <persName>Meyer</persName>
+                    </person>
+                    <person role="chair">
+                        <persName>Taaffe</persName>
+                    </person>
+                    <person>
+                        <persName>Becke</persName>
+                    </person>
+                    <person>
+                        <persName>Hye</persName>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="reg">
+                <p>I. Änderungen des Sparkassareglements vom Jahre 1844 zugunsten der Wiener Sparkassa. II. Eingabe der Direktion der privilegierten Nationalbank wegen Verfolgung ihrer Rechtsansprüche betreffend die Verletzung ihres Privilegiums. III. Aufhebung des Pulvermonopols.</p>
+            </div>
+            <div type="idno">
+                <p>
+                    <idno>KZ. 2423 – MRZ. 170</idno>
+                </p>
+            </div>
+            <div type="text">
+                <p>
+                    <hi rend="font-style:italic;">Z</hi>
+                    <hi rend="font-style:italic;">u I.</hi> Hhsta., JStr. 378/1867: Alle vorstehend erwähnten Anträge wurden von der Ministerratssitzung vom 6. August d. J. einstimmig gebilligt<note type="footnote"/>.</p>
+                <p>Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Wien, 20. September 1867. Franz Joseph.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

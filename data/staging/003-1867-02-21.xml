@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">3</title>
+                <title type="short">003-1867-02-21</title>
+                <meeting>
+                    <placeName>Wien</placeName>
+                    <orgName> Ministerrat</orgName>
+                    <date>21. Februar 1867</date>
+                </meeting>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="other">
+                <p>
+                    <hi rend="font-style:italic;">RS</hi>
+                    <hi rend="font-style:italic;">. fehlt; </hi>
+                    <hi rend="font-style:italic;">Abschrift, </hi>Ava., Ministerratsprotokolle, Karton 33 (Abschriften Prof. Redlich); <hi rend="font-style:italic;">Wortlaut und Datum der Ah. Entschließung: </hi>Hhsta., Kabinettskanzlei, Protokoll 1867.</p>
+            </div>
+            <div type="pers">
+                <listPerson>
+                    <person role="protocol">
+                        <persName>Meyer</persName>
+                    </person>
+                    <person role="chair">
+                        <persName>Kaiser</persName>
+                    </person>
+                    <person>
+                        <persName>Beust</persName>
+                    </person>
+                    <person>
+                        <persName>Komers</persName>
+                    </person>
+                    <person>
+                        <persName>Wüllerstorff</persName>
+                    </person>
+                    <person>
+                        <persName>John</persName>
+                    </person>
+                    <person>
+                        <persName>Becke</persName>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="reg">
+                <p>I. Benehmen der Regierung in der kroatischen Angelegenheit. II. Fiumaner Eisenbahn. III. Regulierung der Donau bei Wien. IV. Plan des Slawenkongresses in Wien für Erlass einer Adresse.</p>
+            </div>
+            <div type="idno">
+                <p>
+                    <idno>KZ. 325 – MRZ. 130</idno>
+                </p>
+            </div>
+            <div type="text">
+                <p>Ministerratsprotokoll vom 21. Februar 1867 unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</p>
+                <p>I. Se. Majestät geruhten auf die Agitation aufmerksam zu machen, welche aus Anlass des bevorstehenden Ausgleiches mit Ungarn in Kroatien von einer gewissen Partei ins Werk gesetzt werde<note type="footnote"/>, und wiesen darauf hin, dass sogar das amtliche Blatt<note type="footnote"/> eine Sprache in neuester Zeit zu führen beginne, welche die Agitation zu nähren geeignet sei und die Vermutung begründen müsse, dass die Regierung in der Frage des Ausgleiches zwischen Ungarn und Kroatien auf dem Parteistandpunkte stehe, welchen der kroatische Landtag bisher eingenommen habe<note type="footnote"/>. Eine solche Vermutung dürfe man nicht aufkommen lassen, indem es Aufgabe der Regierung sei, bei diesem Ausgleichswerke, welches nur durch eine gegenseitige Verständigung der beiden Landtage zustande gebracht werden könne, jeden Schein einer Parteinahme zu vermeiden und weder nach der einen noch nach der anderen Seite eine parteiliche Pression auszuüben.</p>
+                <p>Nur auf Grundlage des historischen Rechtsbodens sei das Zustandekommen eines dauernden Ausgleiches möglich, und hier sei es angezeigt, dass die Zentralregierung für die Förderung des Ausgleichswerkes auf dieser Rechtsgrundlage ihren vermittelnden Einfluss geltend mache. Nach diesem Rechtsboden habe Kroatien zu dem ungarischen Krönungslandtage seine Deputierten zu entsenden und das Inauguraldiplom<note type="footnote"/> mitunterfertigen zu lassen. Damit stehe aber im vollkommenen Widerspruche das Gebaren einer gewissen Partei, welche von der Gründung eines südslawischen dreieinigen Königreiches träume und zu dessen Realisierung die volle Ablösung vom Königreiche Ungarn, die Inkorporierung Dalmatiens und die Aufhebung der Militärgrenze verlange. Diesem Parteitreiben, welches namentlich von der kroatischen Presse genährt werde, soll von der kroatischen Regierung entgegengetreten werden und namentlich in dem amtlichen Organe und den ihrem Einflusse zugänglichen Blättern eine Sprache geführt werden, welche über die Absichten der Zentralregierung keinen Zweifel aufkommen lasse.</p>
+                <p>Der Ministerpräsident Baron v. Beust bemerkte, dass die kroatische Presse dem Einflusse der Pressleitung vollkommen entzogen sei<note type="footnote"/>. Er werde übrigens veranlassen, dass von der hierortigen Presse, welche dem Einflusse der Regierung zugänglich sei, im Sinne der von Sr. Majestät Ag. gegebenen Andeutungen über den Ausgleich zwischen Ungarn und Kroatien gesprochen, so wie er auch nicht ermangeln werde, dem ungarischen Ministerpräsidenten Grafen Andrássy über das Verhalten und die Einflussnahme der Zentralregierung die beruhigendsten Aufklärungen zu geben<note type="footnote"/>.</p>
+                <p>Der kroatische Hofkanzler Freiherr v. Kussevich machte darauf aufmerksam, dass es schwer sei, mit den gegenwärtigen Beamten in Kroatien einer südslawischen Agitation entgegenzutreten, indem die bestellten Obergespäne, deren Ernennung aus dem Jahre 1861 sich herschreibe, der südslawischen Partei angehören und von ihr auf den Sessel gehoben worden seien. In seiner Stellung vermeide er es sorgfältig, nach irgendeiner Richtung eine politische Pression auszuüben, und beschränke sich einfach auf die Geschäftsleitung. Allein auch diese werde mit solchen Beamten bald eine Unmöglichkeit, und es tue daher dringend Not, dass Änderungen in dem Beamtenpersonale vorgenommen werden.</p>
+                <p>Der Kriegsminister Freiherr v. John warnte namentlich vor jeder auf Kroatien auszuübenden Pression im ungarischen Sinne und wies darauf hin, dass es Sache des ungarischen Landtages und der ungarischen Regierung sei, durch freundliches Entgegenkommen die Sache des Ausgleiches mit Kroatien zu fördern.</p>
+                <p>In diesem Sinne äußerten sich auch die Minister Ritter v. Komers und Freiherr v. Wüllerstorff, wobei der erstere namentlich darauf hinwies, dass eine Verständigung mit Kroatien unmöglich sei, wenn Ungarn nicht<note type="footnote"/> steif an [den] 48er Gesetzen, welche übrigens in Kroatien nie publiziert wurden, festhalte<note type="footnote"/>.</p>
+                <p>Se. Majestät geruhten sodann sich Ah. dahin auszusprechen, dass im Sinne der gegebenen Andeutungen von dem Ministerpräsidenten ein Schreiben an den Banus<note type="footnote"/> erlassen und derselbe beauftragt werde, in diesem Sinne seinen Einfluss sowohl auf die Presse als auch auf andere Faktoren des öffentlichen Lebens geltend zu machen. In dieser Richtung wäre auch die hierortige Presse zu beeinflussen. Dem Grafen Andrássy wäre von dem Erlasse an den Banus abschriftlich Mitteilung zu machen<note type="footnote"/>.</p>
+                <p>II. Se. Majestät frug diesfalls nach dem Stande der Sache, da in Fiume in neuerer Zeit Beunruhigung herrsche, als habe es von dem Projekte sein Abkommen gefunden!<note type="footnote"/>
+                </p>
+                <p>Freiherr v. Wüllerstorff gab hierauf den Aufschluss, dass diese Beunruhigung vollkommen grundlos sei, indem für den Beginn des Baues vom Handelsministerium ein fixer Termin gesetzt worden sei und man die Südbahngesellschaft streng zur Einhaltung desselben verhalten werde<note type="footnote"/>. Das grundlose Gerücht von einer Sistierung des Baues rühre von einem Projekte des Betriebsdirektors von Portouse<note type="footnote"/> her, das auf Anlegung einer Lokomobilstrasse hinauslaufe. Dieses Projekt sei aber ganz fallen gelassen worden<note type="footnote"/>.</p>
+                <p>III. Se. Majestät verlangte Aufschluss über den Stand dieser Angelegenheit. In den öffentlichen Blättern werde diesfalls viel Lärm geschlagen und behauptet, dass die Regierung in der Sache gar nichts zu tun beabsichtige. In dem gleichen Sinne werde von der Gemeindebehörde agitiert, und sei ihm eine Eingabe des Gemeinderates des Stadt Wien durch eine Deputation überreicht worden<note type="footnote"/>.</p>
+                <p>Der dieser Angelegenheit wegen in die Sitzung berufene Sektionschef des Staatsministeriums v. Schlosser erteilte hierüber den Aufschluss: Schon unter dem Ministerium Schmerling sei das Projekt einer Donauregulierung bei Wien zur Sprache gekommen und von Sachkundigen Pläne in verschiedener Richtung ausgearbeitet worden<note type="footnote"/>. Die einen Pläne gehen auf eine Verlegung und Näherziehung des großen Donaubettes zur Stadt Wien, ein anderer, von Ministerialrat Pasetti<note type="footnote"/> ausgearbeiteter Plan befürworte bloß eine Korrektion des alten Bettes, eine Korrektion des Donaukanales und den Bau eines Hafens an diesem Kanale<note type="footnote"/>.</p>
+                <p>Für eine Verlegung des Donaubettes agitiere namentlich der Gemeinderat, ohne näher sich darüber auszusprechen, mit welchen Mitteln und von wem die immensen Kosten einer solchen Verlegung gedeckt werden sollen. In gleicher Richtung zeige sich auch der Landesausschuss tätig. In einer aus Abgeordneten aller beteiligten Ministerien zusammengesetzten Kommission sei jedoch einstimmig das Projekt einer Verlegung des Donaustrombettes verworfen und diese Ansicht auch von den Ministerien gebilligt worden<note type="footnote"/>.</p>
+                <p>Se. Majestät geruhten hierauf die Weisung zu erteilen, dass über das von der Kommunaldeputation eingereichte und signierte Gesuch nach Inhalt der diesfalls von den Ministerien gefassten Beschlüsse Vortrag erstattet und im Sinne dieser Beschlüsse in dieser Angelegenheit weiter vorgegangen werde<note type="footnote"/>.</p>
+                <p>IV. Der Ministerpräsident Baron v. Beust legte ein Schreiben des Statthalters von Galizien vor<note type="footnote"/>, worin derselbe anzeigt, dass, wie ihm vertraulich zur Kenntnis gekommen, der Slawenkongress in Wien<note type="footnote"/> beschlossen habe, sich in einer Adresse an Se. Majestät zu wenden, worin das Festhalten an der kaiserlichen Zusage, dass bei Konstituierung der Monarchie die Stimmen des Landes gehört werden sollen<note type="footnote"/>, ausgesprochen wird<note type="footnote"/>. Der Landtag<note type="footnote"/> erkenne die Notwendigkeit einer gemeinsamen Verständigung zur Wahrung der Existenzbedingungen der Monarchie, erkläre daher auch sich bereit, eine beratende Versammlung zu beschicken, in welcher die Länder als solche vertreten wären, in deren Aufgabe es läge, die Verständigung anzubahnen, wobei in den die staatsrechtliche Stellung der Länder betreffenden Angelegenheiten die Voten der Landtage vorbehalten blieben.</p>
+                <p>Graf Gołuchowski ersucht um Verhaltungsbefehle, wenn eine Vorlage in diesem Sinne an den Landtag gemacht werden sollte.</p>
+                <p>Man einigte sich dahin, an die Statthalter von Böhmen, Mähren und Krain telegrafisch die Weisung ergehen zu lassen, dass die Wahlen in den Reichsrat ohne Vorbehalt und Verwahrung zu geschehen haben und die Beratung einer Adresse vor der Wahl nicht zulässig sei<note type="footnote"/>. Dem Grafen Gołuchowski wäre zu telegrafieren, dass er im Wege der Verständigung versuchen soll, an dem Vorhaben einer Adresse den Landtag abzubringen, um einen Konflikt mit der Regierung zu vermeiden, welche konsequent vorgehen werde<note type="footnote"/>.</p>
+                <p>Wien, am 21. Februar 1867.</p>
+                <p>Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. 9. März 1867.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

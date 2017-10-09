@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader><!--Mainsize: 24 = 12pt;-->
+            <fileDesc>
+                <titleStmt>
+                    <title type="num">1</title>
+                    <title type="order">Protokoll I</title>
+                    <title type="short">001-1867-02-19</title>
+                    <meeting>
+                        <placeName>Wien</placeName>
+                        <orgName>Ministerrat</orgName>
+                        <date>19. Februar 1867</date>
+                    </meeting>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="other">
+                    <p>
+                    <hi rend="font-style:italic;">RS. fehlt; </hi>
+                    <hi rend="font-style:italic;">Abschrift</hi>
+                    <hi rend="font-style:italic;">, </hi>Ava., Ministerratsprotokolle, Karton 33 (Abschriften Prof. Redlich); <hi rend="font-style:italic;">Wortlaut und Datum der Ah. Entschließung: </hi>Hhsta., Kabinettskanzlei, Protokoll 1867.</p>
+            </div>
+                <div type="pers">
+                    <listPerson>
+                        <person role="protocol">
+                        <persName>Meyer</persName>
+                    </person>
+                        <person role="chair">
+                        <persName>Beust</persName>
+                    </person>
+                        <person>
+                        <persName>Komers</persName>
+                    </person>
+                        <person>
+                        <persName>Wüllerstorff</persName>
+                    </person>
+                        <person>
+                        <persName>John</persName>
+                    </person>
+                        <person>
+                        <persName>Becke</persName>
+                    </person>
+                    </listPerson>
+                </div>
+                <div type="other">
+                    <p>
+                    <hi rend="font-style:italic;">Teildruck</hi>
+                    <hi rend="font-style:italic;"> (I, II)</hi>
+                    <hi rend="font-style:italic;">: </hi>Redlich, Staats- und Reichsproblem 2, 619, Fußnote * (I), 625 (II).</p>
+                </div>
+                <div type="reg">
+                <p>I. Vollziehung des Ah. Handschreibens vom 17. Februar
+                    <note type="crit_app">
+                        <hi rend="font-size:10pt;">a </hi>
+                        <hi rend="font-size:10pt;font-style:italic;">In der Abschrift für Josef Redlich, demgemäß auch in </hi>
+                        <hi rend="font-size:10pt;">Redlich</hi>
+                        <hi rend="font-size:10pt;">, Staats- und Reichsproblem 2, 619, Anm. *, </hi>
+                        <hi rend="font-size:10pt;font-style:italic;">ja auch im Protokollbuch der Kabinettskanzlei unter KZ. 323/1867 steht das Datum
+								11. Februar. Es handelt sich aber ohne Zweifel um das Handschreiben vom 17. 2. 1867
+								an Beust, vgl. dazu Anm. 1; es gibt kein Handschreiben vom 11. 2. 1867 zu diesem
+								Gegenstand.</hi>
+                    </note> an den Freiherrn v. Beust. II. Auflösung einiger Landtage im Falle der Vornahme bloß bedingter Reichsratswahlen oder im Falle eines damit in Verbindung gebrachten Protestes.</p>
+            </div>
+                <div type="idno">
+                    <p>
+                        <idno>KZ. 323 – MRZ. 128</idno>
+                    </p>
+                </div>
+                <div type="text">
+                    <p>Ministerratsprotokoll I vom 19. Februar 1867 unter dem Vorsitze Sr. Exzellenz des Herrn
+								Ministerpräsidenten Freiherrn v. Beust.</p>
+                    <p>I. Das Ah. Handschreiben vom 17. Februar<note type="crit_app">
+                            <hi rend="font-size:10pt;">a </hi>
+                            <hi rend="font-size:10pt;font-style:italic;">In der Abschrift für Josef Redlich, demgemäß auch in </hi>
+                            <hi rend="font-size:10pt;">Redlich</hi>
+                            <hi rend="font-size:10pt;">, Staats- und Reichsproblem 2, 619, Anm. *, </hi>
+                            <hi rend="font-size:10pt;font-style:italic;">ja auch im Protokollbuch der Kabinettskanzlei unter KZ. 323/1867 steht das Datum
+								11. Februar. Es handelt sich aber ohne Zweifel um das Handschreiben vom 17. 2. 1867
+								an Beust, vgl. dazu Anm. 1; es gibt kein Handschreiben vom 11. 2. 1867 zu diesem
+								Gegenstand.</hi>
+                        </note> über die Abgrenzung des Wirkungskreises der beiderseitigen Ministerien verlange, bemerkte der Ministerpräsident Freiherr v. Beust, eine unmittelbare Vollziehung<note type="footnote">Der zwischen Mitte Jänner und Anfang Februar 1867 erzielte Durchbruch in den
+								Ausgleichsverhandlungen der Regierung mit den Vertretern Ungarns wurde mittels mehrerer kaiserlicher bzw. königlicher Schreiben v. 17. 2. 1867
+								rechtlich umgesetzt, siehe dazu Einleitung XXX. Eines der Handschreiben war an Beust gerichtet. Es betraf die Mitteilung der Konstituierung eines ungarischen Ministeriums und der Ernennung Andrássys und die Abgrenzung des Wirkungskreises der Ministerien: <orig>Lieber Freiherr v. Beust! In Erfüllung der Wünsche und Bitten des ungarischen
+								Landtages habe Ich die Konstituierung eines verantwortlichen ungarischen
+								Ministeriums beschlossen und in Ausführung dessen den Grafen Julius Andrássy zum
+								Präsidenten dieses Ministerrates unter Einem ernannt. Hievon setze Ich Sie zur
+								eigenen Wissenschaft und Verständigung Meiner Minister und Zentralstellen mit dem
+								Beisatze in Kenntnis, dass rücksichtlich der Abgrenzung des beiderseitigen
+								Wirkungskreises und Abgabe der Geschäfte von den betreffenden Ministerien an die
+								ungarischen Landesminister, nach Ernennung der Letzteren und mit Beiziehung
+								derselben die geeigneten Anträge vorzubereiten und Meiner Schlussfassung zu
+								unterziehen sein werden,</orig>
+                            <orig> in w</orig>
+                            <orig>elcher Hinsicht Sie daher im Einvernehmen mit Meinem neuernannten ungarischen Ministerpräsidenten das Weitere vorzukehren haben. Wien, den 17. Februar 1867. Franz Joseph; </orig>
+                            <orig>Hhsta</orig>
+                            <orig>., Kab. Kanzlei, CBProt. 32/9 c/1867; </orig>
+                            <orig>Wiener Zeitung</orig>
+                            <orig> v. 19. 2. 1867, 517; </orig>
+                            <orig>Redlich</orig>
+                            <orig>, Staats- und Reichsproblem 2, 619, Anm. *, </orig>mit irrtümlicher Datierung 11. 2.</note>. Diese könne sich eigentlich nur auf die Ministerien des Kriegs, der Finanzen und des Handels beziehen<note type="footnote">Die auswärtigen Angelegenheiten kamen aufgrund des Ausgleichs nicht in Betracht
+								(später § 8 des ungarischen Ausgleichsgesetzes, <orig>Bernatzik</orig>
+                            <orig>, Verfassungsgesetze Nr. 119;</orig>
+                            <orig>Žolger</orig>
+                            <orig>, Ausgleich</orig>
+                            <orig> 90−</orig>
+                            <orig>107</orig>)<orig>. </orig>Die Trennung der Justizangelegenheiten war bereits mit dem Handschreiben v. 20. 10. 1860 an den ungarischen Hofkanzler Freiherrn v. Vay vollzogen worden<orig>, </orig>
+                            <orig>Bernatzik</orig>
+                            <orig>, Verfassungsgesetze Nr. 62; </orig>MK. I v. 19. 1. 1861,<orig>Ömr</orig>
+                            <orig>. IV/3, Nr. 270; </orig>
+                            <orig>Malfèr</orig>
+                            <orig>, Das österreichische </orig>
+                            <orig>Allgemeine bürgerliche Gesetzbuch in Ungarn</orig>
+                            <orig>. </orig>Dementsprechend war Justizminister Komers ausdrücklich nur zum <orig>Justizminister für alle nicht zur ungarischen Krone gehörigen Länder </orig>ernannt<orig>, </orig>siehe oben das Verzeichnis der Teilnehmer am Ministerrat, Anm. 4.</note>.</p>
+                    <p>Es dürfte angezeigt sein, in einem Schreiben an den ungarischen Ministerpräsidenten, Grafen Andrássy, sich zu wenden und ihn zu ersuchen, die Veranlassung zu treffen, dass namentlich der künftige ungarische Handelsminister<note type="footnote">Stephan v. Gorove.</note> sich baldmöglichst mit Herrn Baron v. Wüllerstorff ins Einvernehmen setze.</p>
+                    <p>Freiherr v. John erklärte, dass vorderhand, was die Angelegenheiten des Kriegsministeriums betreffe, keine weitere Verabredung zu treffen sei, indem in der unter Vorsitz Sr. Majestät am 14. d. [M.] abgehaltenen Sitzung bereits das Erforderliche diesfalls festgestellt worden sei<note type="footnote">
+                            <orig>Somogyi, </orig>
+                            <orig>Einleitung </orig>
+                            <orig>Gmr</orig>
+                            <orig>. I/1, XLI f., </orig>hat die Sitzung v. 14. 2. 1867 mit Recht als den <orig>erste</orig>
+                            <orig>n</orig>
+                            <orig>quasi gemeinsamen Ministerrat</orig>und ersten<orig>Vorläufer der späteren gemeinsamen Ministerratssitzungen</orig>bezeichnet und folgerichtig das Protokoll im Anhang als Nr. I ediert<orig>. </orig>An dieser Sitzung haben auch die designierten ungarischen Minister teilgenommen. Inhalt war die
+								Durchführung des Ausgleichswerkes. Zu den Angelegenheiten des Kriegsministeriums siehe die Punkte I und II.</note>.</p>
+                    <p>Ebenso bemerkte der Leiter des Finanzministeriums, Baron v. Becke, dass, was die Übergangsperiode betreffe, durch das gegenseitig gepflogene
+								Einvernehmen zwischen ihm und dem künftigen ungarischen Finanzminister, Herrn v. Lónyay, alles Erforderliche geregelt wurde. Nach dieser Verabredung bleibe
+								vorderhand der ganze Finanzorganismus, wie er in Ungarn bisher bestanden, unter dem
+								neu auftretenden Ministerium aufrecht, und werde die Sache des Überganges ohne große
+								Schwierigkeit sich abwickeln<note type="footnote">
+                            <orig>Ebd., Punkt III </orig>und Anhang <orig>Nr. I a In Beziehung auf die Finanzen.</orig>Siehe auch MR. v. 8. 4. 1867/I, Anm.6.</note>.</p>
+                    <p>Freiherr v. Wüllerstorff erging sich nochmals<note type="footnote">Wüllerstorff hatte an der Sitzung v. 14. 2. 1867 teilgenommen und dort jene Gegenstände bezeichnet, die er<orig> von einem für beide Reichshälften gemeinschaftlichem Interesse </orig>hielt, <orig>ebd., Punkt IV.</orig>Bereits am 11. 2. 1867 hatte er in einem Schreiben an Beust die Notwendigkeit der Erweiterung des Wirkungskreises des Handelsministeriums dargestellt, <orig>Ava.</orig>
+                            <orig>, HM., Präs. 240/1867 </orig>(K.). Siehe auch <orig>Goldinger</orig>
+                            <orig>, Die Zentralverwaltung in Cisleithanien. </orig>In: <orig>Wandruszka – Urbanitsch</orig>
+                            <orig>, Habsburgermonarchie 2, 140.</orig>
+                        </note> in einer Aufzählung einer Reihe von Gegenständen, deren Behandlung dem Handelsministerium unterstehe, wo jedoch künftig eine Teilung oder Ausscheidung nicht möglich sei, weil dieselben gemeinsamer Natur sind und nur einer gemeinsamen Behandlung unterzogen werden können.</p>
+                    <p>Die Konferenz einigte sich dahin, durch den Ministerpräsidenten ein Schreiben an
+								den ungarischen Ministerpräsidenten Grafen Andrássy zu richten, worin derselbe
+								ersucht wird, den ungarischen Handelsminister, sofort nach Konstituierung des
+								ungarischen Ministeriums, zu einem Zusammentritt mit Freiherrn v. Wüllerstorff zu veranlassen<note type="footnote">Dieses Schreiben ist in Ava., Ministerratspräsidium, nicht erhalten. Die Verhandlungen erwiesen sich als schwierig. Im ung. MR. v. 17. 3. 1867/VI wurde eine Liste von 16 Gegenständen erörtert;
+								darüber wurde im ung. MR. v. 21. 3. 1867/IV unter dem Vorsitz des Kaisers und im Beisein der österreichischen Minister Beust, Wüllerstorff und Becke weiter beraten, <orig>Hhsta., </orig>
+                            <orig>Kab. Kanzlei</orig>. Fortsetzung MR. v. 8. 4. 1867/I. </note>.</p>
+                    <p>II. Freiherr v. Beust machte darauf aufmerksam, dass, wie es jetzt den Anschein gewinne, die Landtage von Böhmen, Mähren, Galizien,
+								Krain sich zur Vornahme der Wahlen in den Reichsrat entschließen werden<note type="footnote">Die cisleithanischen Landtage waren mit Patent v. 2. 1. 1867 aufgelöst worden, zugleich waren Neuwahlen ausgeschrieben und die Landtage auf den 11. 2. 1867 einberufen worden, <orig>Rgbl</orig>
+                            <orig>. Nr. 1/1867; </orig>mit Patent v. 7. 2. 1867, dem Tag der Enthebung Belcredis und der Ernennung Beusts zum
+								Ministerpräsidenten, wurde das Zusammentreten der Landtage − um eine Woche verschoben − auf den 18. 2. festgesetzt, <orig>Rgbl</orig>
+                            <orig>. Nr. 26/1867</orig>
+                            <orig>, </orig>
+                            <orig>Wiener Zeitung</orig>
+                            <orig> v. 8. 2. 1867. </orig>Am 18. 2. 1867 wurden sie eröffnet; damit begann die II. Wahlperiode. Die erste
+								Aufgabe war die Wahl der Abgeordneten zum Reichsrat. Zur Frage außerordentlicher oder verfassungsmäßiger Reichsrat und zur möglichen
+								Weigerung der genannten Landtage, den Reichsrat zu beschicken, siehe Einleitung XXX. Zu diesem Tagesordnungspunkt siehe <orig>Redlich</orig>
+                            <orig>, Staa</orig>
+                            <orig>ts- und Reichsproblem 2, 625 f.</orig>
+                        </note>, dass es aber leicht der Fall sein dürfte, dass der eine oder andere Landtag
+								diese Vornahme an Bedingungen, Deutungen, Voraussetzungen knüpfen oder sogar mit einem Proteste verbinden werde. Er erachte dieses als vollkommen unzulässig nach § 15 der Februarverfassung,
+								welcher die Erteilung jeder wie immer gearteten Instruktion an die Abgeordneten verbiete<note type="footnote">
+                            <orig>§ 15 </orig>
+                            <orig>Grundgesetz über die Reichsvertretung, Beilage zum Februarpatent, </orig>
+                            <orig>Rgbl</orig>
+                            <orig> Nr. 20/1861.</orig>
+                        </note>, und glaube, dass von Sr. Majestät sich die Vollmacht zu erbitten wäre, auch in diesem
+								Falle<note type="footnote">D. h. nicht nur im Fall der Weigerung, die Abgeordneten zu entsenden, sondern
+								auch bei bedingter Entsendung.</note> zur Auflösung eines solchen Landtages schreiten zu dürfen<note type="footnote">Der Kaiser konnte die Landtage jederzeit unter Anordnung neuer Wahlen
+								auflösen, <orig>§10 der Landesordnungen, Beilagen zum Februarpatent, </orig>
+                            <orig>Rgbl</orig>
+                            <orig> Nr. 20/1861.</orig>Die Auflösung der Landtage im Falle der Verweigerung der Entsendung von
+								Abgeordneten in den Reichsrat war bereits beschlossen; mit Vortrag v. 12. 2. 1867, Präs. 1137, hatte Beust in seiner Funktion als einstweiliger Leiter des Staatsministeriums die Auflösungspatente vorgelegt, sie waren mit Ah. E. v. 13. 2. 1867 genehmigt worden: <orig>Ich genehmige Ih</orig>
+                            <orig>r</orig>
+                            <orig>en Antrag, erteile eventuell Meine Genehmigung zur Auflösung der Landtage von Galizien, von Böhmen, von Mähren und von Krain und schließe die von Mir gefertigten Patente, deren Datum Sie seinerzeit auszufüllen haben, zurück, </orig>
+                            <orig>Hhsta</orig>
+                            <orig>., Kab. Kanzlei,</orig>
+                            <orig>KZ. 628/1867.</orig>
+                        </note>.</p>
+                    <p>Die Statthalter von Böhmen, Mähren, Galizien und Krain wären daher anzuweisen,
+								wenn in der angedeuteten Weise von dem Landtage vorgegangen werden sollte, dieses,
+								unter genauer Angabe des Inhaltes einer allfälligen Bedingung, Deutung oder eines
+								Protestes, sofort telegrafisch zu melden, wodann die Regierung nach Inhalt des
+								Telegrammes sich vorbehalte, mit Ah. Ermächtigung den Landtag aufzulösen und dieses
+								im telegrafischen Wege dem Statthalter anzuzeigen.</p>
+                    <p>Die Konferenz erklärte sich mit diesem Vorgange einverstanden<note type="footnote">Ein eigener Vortrag, die Landtage auch in diesem Fall auflösen zu dürfen, wurde
+								nicht erstattet. Die Schreiben Beusts an die Landeschefs sind in Ava. nicht erhalten; Fortsetzung MR. v. 26. 2. 1867/I.</note>.</p>
+                    <p>Wien, 19. Februar 1867.</p>
+                    <p>Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. 28. Februar 1867.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
