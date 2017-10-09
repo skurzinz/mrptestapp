@@ -8,6 +8,7 @@ import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:or
 declare variable $exist:root external;
 
 declare variable  $app:editions := $config:app-root||'/data/editions';
+declare variable  $app:staging := $config:app-root||'/data/staging';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 
