@@ -230,11 +230,12 @@ declare function app:toc($node as node(), $model as map(*)) {
     for $title in $docs
         let $date := $title//tei:date
         let $protocol := $title//tei:title[@type="order"]/text()
+        let $protNr := $title//tei:title[@type="num"]/text()
         let $persons := string-join($title//tei:div[@type="pers"]//text(), ', ')
         return
         <tr>
            <td>{$date}</td>
-           <td>{$protocol}</td>
+           <td>({$protNr}) {$protocol}</td>
            <td>{$persons}</td>
             <td>
                 <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>

@@ -152,22 +152,38 @@
                         </xsl:element>
                     </xsl:for-each>
                 </xsl:element>
-                <h3>
-                    <xsl:apply-templates select="//tei:div[@type='titelblatt']"/>
-                </h3>
-                <p>
-                    <xsl:choose>
-                        <xsl:when test="//tei:div[@type='text']">
-                            <xsl:apply-templates select="//tei:div[@type='text']"/>
-                        </xsl:when>
-                        <xsl:when test="//tei:div[@type='transcript']">
-                            <xsl:apply-templates select="//tei:div[@type='transcript']"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:apply-templates select="//tei:body"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </p>
+                <div>
+                    <h4>zur Quelle</h4>
+                    <xsl:apply-templates select="//tei:div[@type='other']"/>
+                    <hr/>
+                </div>
+                <div>
+                    <h4>Anwesende Personen</h4>
+                    <ul>
+                        <xsl:for-each select="//tei:div[@type='pers']//tei:person">
+                            <li>
+                                <xsl:apply-templates/>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+                <hr/>
+                <div>
+                    <h4>Zusammenfassung</h4>
+                    <xsl:apply-templates select="//tei:div[@type='reg']"/>
+                </div>
+                <hr/>
+                <div>
+                    <h4>Aktenzahl</h4>
+                    <xsl:apply-templates select="//tei:div[@type='idno']"/>
+                </div>
+                <hr/>
+                <div>
+                    <h2>edierter Text</h2>
+                    <xsl:apply-templates select="//tei:div[@type='text']"/>
+                </div>
+                
+                
             </div>
             <div class="panel-footer">
                 <p style="text-align:center;">
@@ -199,6 +215,7 @@
     ###  Formatierung ###
     #####################
 -->
+    
     <xsl:template match="tei:term">
         <span/>
     </xsl:template>
@@ -215,7 +232,12 @@
                 </i>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates/>
+                <span>
+                    <xsl:attribute name="style">
+                        <xsl:value-of select="@rend"/>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template><!--    footnotes -->
