@@ -4,6 +4,8 @@ declare namespace tei	= "http://www.tei-c.org/ns/1.0";
 declare namespace mets	= "http://www.loc.gov/METS/";
 declare namespace xlink	= "http://www.w3.org/1999/xlink";
 
+
+import module namespace response = "http://exist-db.org/xquery/response";
 import module namespace console = "http://exist-db.org/xquery/console";
 import module namespace config="http://www.digital-archiv.at/ns/mp-app/config" at "../modules/config.xqm";
 import module namespace app="http://www.digital-archiv.at/ns/mp-app/templates" at "../modules/app.xql";
@@ -82,5 +84,6 @@ let $attr := <attributes><attr name="http://saxon.sf.net/feature/recoveryPolicyN
 let $result := transform:transform($incoming, doc($add), $params)
 for $el in $result//tei:TEI
 	let $filename := $el//tei:title[@type='short'] || '.xml'
-	return <p>{xmldb:store($app:staging, $filename, $el)}</p>
+	let $stored := xmldb:store($app:staging, $filename, $el)
+    return response:redirect-to(xs:anyURI('../pages/validates.html?schema=tei_all.rng&amp;directory=staging'))
 (:	return $filename:)

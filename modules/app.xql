@@ -224,18 +224,18 @@ declare function app:toc($node as node(), $model as map(*)) {
     let $bestand := request:get-parameter("bestand", "")
     let $docs := if ($bestand)
         then 
-            collection(concat($config:app-root, '/data/editions/'))//tei:TEI[contains(.//tei:title/text(), $bestand)]
+            collection(concat($config:app-root, '/data/', $bestand, '/'))//tei:TEI
         else 
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $year := "1867"
-        let $month := "Februar"
-        let $protocol := $title//tei:title[@type="main"]/text()
+        let $date := $title//tei:date
+        let $protocol := $title//tei:title[@type="order"]/text()
+        let $persons := string-join($title//tei:div[@type="pers"]//text(), ', ')
         return
         <tr>
-           <td>{$year}</td>
-           <td>{$month}</td>
-           <td align="center">{$protocol}</td>
+           <td>{$date}</td>
+           <td>{$protocol}</td>
+           <td>{$persons}</td>
             <td>
                 <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
             </td>
