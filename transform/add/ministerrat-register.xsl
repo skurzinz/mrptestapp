@@ -48,7 +48,7 @@
 
 	<xsl:template match="tei:person">
 		<person>
-			<xsl:attribute name="xml:id" select="lower-case(translate(normalize-space(), ' éüäöáŠčćŽłÖ,()', '-euaoaSccZlO'))"/>
+			<xsl:attribute name="xml:id" select="generate-id(.)"/>
 			<persName>
 				<surname>
 					<xsl:value-of select="substring-before(., ',')"/>
@@ -74,7 +74,7 @@
 		<place>
 			<xsl:choose>
 				<xsl:when test="contains(., 'siehe')">
-					<xsl:attribute name="xml:id" select="lower-case(translate(normalize-space(substring-before(., 'siehe')),       ' éüäöáŠčćŽłÖáöä,()', '-euaoaSccZlO'))"/>
+					<xsl:attribute name="xml:id" select="generate-id(.)"/>
 					<placeName>
 						<xsl:value-of select="normalize-space(substring-before(., 'siehe'))"/>
 					</placeName>
@@ -83,7 +83,7 @@
 					</placeName>
 				</xsl:when>
 				<xsl:otherwise>
-					<xsl:attribute name="xml:id" select="lower-case(translate(normalize-space(), ' éüäöáŠčćŽłÖáöä,()', '-euaoaSccZlO'))"/>
+					<xsl:attribute name="xml:id" select="generate-id(.)"/>
 					<xsl:analyze-string regex="\(.*\)" select=".">
 						<xsl:matching-substring>
 							<placeName type="orig">
