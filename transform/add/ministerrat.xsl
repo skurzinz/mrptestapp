@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-	xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-	xmlns="http://www.tei-c.org/ns/1.0"
-	exclude-result-prefixes="#all" version="3.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage" exclude-result-prefixes="#all" version="3.0">
 	<!-- neu 2016-07-28 Dario Kampkaspar (DK) – kampkaspar@hab.de -->
 	
-<!--	<xsl:output indent="yes"/>-->
+	<!--	<xsl:output indent="yes"/>-->
 	
 	<!-- Standard-Schriftgröße bestimmen -->
 	<xsl:variable name="mainsize">
-		<xsl:variable name ="t">
+		<xsl:variable name="t">
 			<xsl:for-each-group select="//w:rPr/w:sz" group-by="@w:val">
 				<xsl:sort select="count(current-group())" order="descending"/>
 				<s>
@@ -22,9 +18,8 @@
 	</xsl:variable>
 	
 	<xsl:template match="/">
-		<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-			<xsl:apply-templates select="//w:p[w:pPr/w:rPr/w:b[ancestor::w:document]
-				or w:pPr/w:pStyle[@w:val='berschrift1']]" />
+		<teiCorpus>
+			<xsl:apply-templates select="//w:p[w:pPr/w:rPr/w:b[ancestor::w:document]     or w:pPr/w:pStyle[@w:val='berschrift1']]"/>
 		</teiCorpus>
 	</xsl:template>
 	
@@ -35,17 +30,17 @@
 				<xsl:variable name="dat">
 					<xsl:choose>
 						<xsl:when test="contains($md[3], ' – ')">
-							<xsl:value-of select="substring-before($md[3], ' – ')" />
+							<xsl:value-of select="substring-before($md[3], ' – ')"/>
 						</xsl:when>
 						<xsl:otherwise>
-							<xsl:value-of select="$md[3]" />
+							<xsl:value-of select="$md[3]"/>
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:variable>
 				<fileDesc>
 					<titleStmt>
-						<xsl:variable name="num" select="substring-before(substring-after($md[1], 'Nr. '), ' ')" />
-						<xsl:variable name="da" select="tokenize($dat, ' ')" />
+						<xsl:variable name="num" select="substring-before(substring-after($md[1], 'Nr. '), ' ')"/>
+						<xsl:variable name="da" select="tokenize($dat, ' ')"/>
 						<xsl:variable name="mo">
 							<xsl:choose>
 								<xsl:when test="$da[2] = 'Jänner'">01</xsl:when>
@@ -62,40 +57,49 @@
 								<xsl:when test="$da[2] = 'Dezember'">12</xsl:when>
 							</xsl:choose>
 						</xsl:variable>
-						<xsl:variable name="datum" select="concat($mo, '-',
-							format-number(number(substring-before($da[1], '.')), '00'))" />
-						<title type="num"><xsl:value-of select="$num"/></title>
+						<xsl:variable name="datum" select="concat($mo, '-',        format-number(number(substring-before($da[1], '.')), '00'))"/>
+						<title type="num">
+                            <xsl:value-of select="$num"/>
+                        </title>
 						<xsl:if test="contains($md[3], ' – ')">
 							<title type="order">
-								<xsl:value-of select="substring-after($md[3], ' – ')" />
+								<xsl:value-of select="substring-after($md[3], ' – ')"/>
 							</title>
 						</xsl:if>
 						<title type="short">
-							<xsl:value-of select="format-number(xs:integer($num), '0000')" />
+							<xsl:value-of select="format-number(xs:integer($num), '0000')"/>
 							<xsl:text>-</xsl:text>
 							<xsl:value-of select="concat($da[3], '-', $datum)"/>
 						</title>
 						<meeting>
-							<placeName><xsl:value-of select="$md[2]"/></placeName>
-							<orgName><xsl:value-of select="substring-after(substring-after($md[1], 'Nr. '), ' ')"/></orgName>
-							<date when="{concat($da[3], '-', $datum)}"><xsl:value-of select="$dat" /></date>
+							<placeName>
+                                <xsl:value-of select="$md[2]"/>
+                            </placeName>
+							<orgName>
+                                <xsl:value-of select="substring-after(substring-after($md[1], 'Nr. '), ' ')"/>
+                            </orgName>
+							<date when="{concat($da[3], '-', $datum)}">
+                                <xsl:value-of select="$dat"/>
+                            </date>
 						</meeting>
 					</titleStmt>
-					<publicationStmt><p/></publicationStmt>
-					<sourceDesc><p/></sourceDesc>
+					<publicationStmt>
+                        <p/>
+                    </publicationStmt>
+					<sourceDesc>
+                        <p/>
+                    </sourceDesc>
 				</fileDesc>
 			</teiHeader>
 			<text>
 				<body>
 					<xsl:choose>
 						<xsl:when test="following-sibling::w:p[w:pPr/w:rPr/w:b or w:pPr/w:pStye[@w:val='berschrift1']]">
-							<xsl:variable name="follId"
-								select="generate-id(following-sibling::w:p[w:pPr/w:rPr/w:b or w:pPr/w:pStye[@w:val='berschrift1']][1])"/>
-							<xsl:apply-templates select="following-sibling::w:p intersect 
-								following-sibling::w:p[generate-id() = $follId]/preceding-sibling::w:p" />
+							<xsl:variable name="follId" select="generate-id(following-sibling::w:p[w:pPr/w:rPr/w:b or w:pPr/w:pStye[@w:val='berschrift1']][1])"/>
+							<xsl:apply-templates select="following-sibling::w:p intersect          following-sibling::w:p[generate-id() = $follId]/preceding-sibling::w:p"/>
 						</xsl:when>
 						<xsl:otherwise>
-							<xsl:apply-templates select="following-sibling::w:p" />
+							<xsl:apply-templates select="following-sibling::w:p"/>
 						</xsl:otherwise>
 					</xsl:choose>
 				</body>
@@ -104,33 +108,31 @@
 	</xsl:template>
 	
 	<!-- neu 2016-08-11 DK -->
-    <xsl:template match="w:p[not(descendant::w:t)]" />
-    <xsl:template match="w:p[not(descendant::w:t)]" mode="text" />
-    <xsl:template match="w:body/text()" />
+	<xsl:template match="w:p[not(descendant::w:t)]"/>
+	<xsl:template match="w:p[not(descendant::w:t)]" mode="text"/>
+	<xsl:template match="w:body/text()"/>
 	
 	<!-- Aktenzeichen -->
 	<xsl:template match="w:p[not(w:pPr/w:rPr/w:b or w:pPr/w:ind or w:pPr/w:pStyle) and descendant::w:t][1]">
-		<div type="idno"><p><idno><xsl:apply-templates select="w:r//w:t"/></idno></p></div>
+		<div type="idno">
+            <p>
+                <idno>
+                    <xsl:apply-templates select="w:r//w:t"/>
+                </idno>
+            </p>
+        </div>
 	</xsl:template>
 	
 	<!-- Struktur hinter dem AZ -->
 	<xsl:template match="w:p[not(w:pPr/w:rPr/w:b or w:pPr/w:ind or w:pPr/w:pStyle) and descendant::w:t][2]">
 		<div type="text">
-			<xsl:apply-templates
-				select=".
-				| following-sibling::w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind)
-					and not(w:pPr/w:pStyle) and not(descendant::w:sz/@w:val='20')]"
-				mode="text" />
+			<xsl:apply-templates select=".     | following-sibling::w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind)     and not(w:pPr/w:pStyle) and not(descendant::w:sz/@w:val='20')]" mode="text"/>
 		</div>
 	</xsl:template>
 	
 	<!-- normaler Absatz - wird vom ersten nach dem AZ zusammengehalten; 2017-10-06 DK -->
-	<xsl:template match="w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind) and not(w:pPr/w:pStyle)
-		and not(descendant::w:sz/@w:val='20')][position()>2]"
-		/>
-	<xsl:template match="w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind) and not(w:pPr/w:pStyle)
-		and not(descendant::w:sz/@w:val='20')][position()>1]"
-		mode="text">
+	<xsl:template match="w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind) and not(w:pPr/w:pStyle)   and not(descendant::w:sz/@w:val='20')][position()&gt;2]"/>
+	<xsl:template match="w:p[descendant::w:t and not(w:pPr//w:b or w:pPr/w:ind) and not(w:pPr/w:pStyle)   and not(descendant::w:sz/@w:val='20')][position()&gt;1]" mode="text">
 		<p>
 			<xsl:apply-templates select="w:r"/>
 		</p>
@@ -140,7 +142,7 @@
 	<xsl:template match="w:p[descendant::w:sz/@w:val='20']" mode="fn">
 		<xsl:apply-templates select="w:r"/>
 	</xsl:template>
-	<xsl:template match="w:p[descendant::w:sz/@w:val='20']" />
+	<xsl:template match="w:p[descendant::w:sz/@w:val='20']"/>
 	
 	<!-- neu 2017-10-06 DK -->
 	<!-- eingerückt sind die Info am Anfang -->
@@ -152,30 +154,46 @@
 					<xsl:attribute name="type">pers</xsl:attribute>
 					<xsl:variable name="str" select="string-join(w:r/w:t, '')"/>
 					<!-- endet mit Punkt -->
-					<xsl:variable name="pers" select="substring($str, 1, string-length($str)-1)" />
-					<xsl:variable name="functs" select="tokenize($pers, '; ')" />
+					<xsl:variable name="pers" select="substring($str, 1, string-length($str)-1)"/>
+					<xsl:variable name="functs" select="tokenize($pers, '; ')"/>
 					<listPerson>
-						<person role="protocol"><persName><xsl:value-of select="substring-after($functs[1], ' ')"/></persName></person>
-						<person role="chair"><persName><xsl:value-of select="substring-after($functs[2], ' ')"/></persName></person>
+						<person role="protocol">
+                            <persName>
+                                <xsl:value-of select="substring-after($functs[1], ' ')"/>
+                            </persName>
+                        </person>
+						<person role="chair">
+                            <persName>
+                                <xsl:value-of select="substring-after($functs[2], ' ')"/>
+                            </persName>
+                        </person>
 						<xsl:for-each select="tokenize(substring-after($functs[3], 'anw. '), ', ')">
-							<person><persName><xsl:value-of select="current()"/></persName></person>
+							<person>
+                                <persName>
+                                    <xsl:value-of select="current()"/>
+                                </persName>
+                            </person>
 						</xsl:for-each>
 					</listPerson>
 				</xsl:when>
 				<xsl:when test="starts-with(w:r[1]/w:t, 'I.')">
 					<!-- Kurzregest -->
 					<xsl:attribute name="type">reg</xsl:attribute>
-					<p><xsl:apply-templates select="w:r"/></p>
+					<p>
+                        <xsl:apply-templates select="w:r"/>
+                    </p>
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:attribute name="type">other</xsl:attribute>
-					<p><xsl:apply-templates select="w:r"/></p>
+					<p>
+                        <xsl:apply-templates select="w:r"/>
+                    </p>
 				</xsl:otherwise>
 			</xsl:choose>
 		</div>
 	</xsl:template>
 	
-    <xsl:template match="w:r[not(w:t) and not(w:endnoteReference) and not(ancestor::w:endnote)]" />
+	<xsl:template match="w:r[not(w:t) and not(w:endnoteReference) and not(ancestor::w:endnote)]"/>
 	
 	<!-- neu 2016-07-31 DK -->
 	<!-- Fußnoten getrennt behandeln; 2016-08-10 DK -->
@@ -205,9 +223,8 @@
 			<xsl:when test="w:rPr/w:vertAlign">
 				<!-- manuell hochgestellte FN-Zeichen bei krit. Anm. -->
 				<note type="crit_app">
-					<xsl:variable name="fnz" select="normalize-space()" />
-					<xsl:apply-templates select="//w:p[descendant::w:sz/@w:val='20'
-						and starts-with(descendant::w:t[1], $fnz)]" mode="fn"/>
+					<xsl:variable name="fnz" select="normalize-space()"/>
+					<xsl:apply-templates select="//w:p[descendant::w:sz/@w:val='20'       and starts-with(descendant::w:t[1], $fnz)]" mode="fn"/>
 				</note>
 			</xsl:when>
 			<xsl:otherwise>
@@ -226,9 +243,9 @@
 					<xsl:apply-templates select="w:t"/>
 				</orig>
 			</xsl:when>
-		    <!-- neu 2016-08-11 DK -->
-		    <!-- aufgrund der viel zu kleinteiligen Kodierung von Word wieder auskommentiert -->
-		    <!--<xsl:when test="w:rPr/w:i and w:rPr/w:u">
+			<!-- neu 2016-08-11 DK -->
+			<!-- aufgrund der viel zu kleinteiligen Kodierung von Word wieder auskommentiert -->
+			<!--<xsl:when test="w:rPr/w:i and w:rPr/w:u">
 		        <quote>
 		            <xsl:apply-templates select="w:t" />
 		        </quote>
@@ -237,18 +254,16 @@
 				<xsl:apply-templates select="w:t"/>
 			</xsl:otherwise>
 		</xsl:choose>
-	    <xsl:if test="contains(w:t, 'S. #') or contains(w:t, 'Anm. #')">
-	        <xsl:comment>TODO: Verweis</xsl:comment>
-	    </xsl:if>
+		<xsl:if test="contains(w:t, 'S.&#160;#') or contains(w:t, 'Anm. #')">
+			<xsl:comment>TODO: Verweis</xsl:comment>
+		</xsl:if>
 	</xsl:template>
 	
 	<!-- neu 2016-07-31 DK -->
 	<xsl:template match="w:r[w:endnoteReference]">
 		<note type="footnote">
-			<xsl:variable name="nid" select="w:endnoteReference/@w:id" />
-			<xsl:apply-templates
-				select="//w:endnote[@w:id = $nid]"
-			/>
+			<xsl:variable name="nid" select="w:endnoteReference/@w:id"/>
+			<xsl:apply-templates select="//w:endnote[@w:id = $nid]"/>
 		</note>
 	</xsl:template>
 	
