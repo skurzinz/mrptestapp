@@ -241,7 +241,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         let $date := $title//tei:date
         let $protocol := $title//tei:title[@type="order"]/text()
         let $protNr := $title//tei:title[@type="num"]/text()
-        let $persons := string-join($title//tei:div[@type="pers"]//text(), ', ')
+        let $persons := string-join($title//tei:div[@type="pers"]//tei:persName, ', ')
         return
         <tr>
            <td>{$date}</td>

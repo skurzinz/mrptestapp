@@ -13,4 +13,11 @@
         });
         });
     </script>
+    <script src="$app-root/resources/js/hrjs/hr.js"/>
+    <script>
+        var hit = findGetParameter("searchexpr")
+        new HR("p", {
+        highlight: hit
+        }).hr();
+    </script>
 </div>
