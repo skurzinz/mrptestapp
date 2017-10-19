@@ -12,6 +12,12 @@ declare variable  $app:staging := $config:app-root||'/data/staging';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 
+declare function functx:capitalize-first
+  ( $arg as xs:string? )  as xs:string? {
+
+   concat(upper-case(substring($arg,1,1)),
+             substring($arg,2))
+};
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
     $substring as xs:string )  as xs:boolean? {
@@ -184,6 +190,9 @@ declare function app:listPers($node as node(), $model as map(*)) {
             <td>
                 {$person/tei:persName/tei:forename}
             </td>
+            <td>
+                {$person/tei:persName/tei:roleName}
+            </td>
         </tr>
 };
 
@@ -196,8 +205,9 @@ declare function app:listPlace($node as node(), $model as map(*)) {
         return
         <tr>
             <td>
-                <a href="{concat($hitHtml, data($place/@xml:id))}">{$place/tei:placeName}</a>
+                <a href="{concat($hitHtml, data($place/@xml:id))}">{functx:capitalize-first($place/tei:placeName[1])}</a>
             </td>
+            <td>{for $altName in $place//tei:placeName return <li>{$altName}</li>}</td>
             <td>{$place//tei:idno}</td>
             <td>{$place//tei:geo}</td>
         </tr>

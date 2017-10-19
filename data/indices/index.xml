@@ -1,849 +1,1243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="short">listperson</title>
+                <title type="short">Register</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <p>created with xsl ministerrat-register.xsl</p>
             </publicationStmt>
             <sourceDesc>
-                <p>derived from 13 Cisleithanien I  Register alphabetisch Thesaurus Personen und Orte.docx via http://127.0.0.1:8080/exist/apps/mp-app/pages/w2tei.html</p>
+                <p/>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
+            <listPlace>
+                <place xml:id="d94e1"/>
+                <place xml:id="d94e2">
+                    <placeName>Alba Iulia</placeName>
+                    <placeName type="ref">(Karlsburg)</placeName>
+                </place>
+                <place xml:id="d94e8">
+                    <placeName>Arad</placeName>
+                </place>
+                <place xml:id="d94e18">
+                    <placeName>Bakar</placeName>
+                    <placeName type="ref">Buccari</placeName>
+                </place>
+                <place xml:id="d94e20">
+                    <placeName>Barcs</placeName>
+                </place>
+                <place xml:id="d94e25">
+                    <placeName>Békés</placeName>
+                    <placeName type="orig">Komitat</placeName>
+                </place>
+                <place xml:id="d94e29">
+                    <placeName>Belgien</placeName>
+                </place>
+                <place xml:id="d94e35">
+                    <placeName>Böhmen</placeName>
+                </place>
+                <place xml:id="d94e39">
+                    <placeName>Bosnien</placeName>
+                </place>
+                <place xml:id="d94e43">
+                    <placeName>Braunau</placeName>
+                </place>
+                <place xml:id="d94e52">
+                    <placeName>Brno</placeName>
+                    <placeName type="ref">Brünn</placeName>
+                </place>
+                <place xml:id="d94e54">
+                    <placeName>Brody</placeName>
+                </place>
+                <place xml:id="d94e56">
+                    <placeName>Brünn</placeName>
+                    <placeName type="orig">Brno</placeName>
+                </place>
+                <place xml:id="d94e58">
+                    <placeName>Brüssel</placeName>
+                </place>
+                <place xml:id="d94e60">
+                    <placeName>Buccari</placeName>
+                    <placeName type="orig">Bakar</placeName>
+                </place>
+                <place xml:id="d94e62">
+                    <placeName>Buda</placeName>
+                    <placeName type="ref">Ofen</placeName>
+                </place>
+                <place xml:id="d94e64">
+                    <placeName>Budapest</placeName>
+                </place>
+                <place xml:id="d94e66">
+                    <placeName>Bukowina</placeName>
+                </place>
+                <place xml:id="d94e69">
+                    <placeName>Chomutov</placeName>
+                    <placeName type="ref">Komotau</placeName>
+                </place>
+                <place xml:id="d94e81">
+                    <placeName>Dalmatien</placeName>
+                </place>
+                <place xml:id="d94e89">
+                    <placeName>Donau</placeName>
+                </place>
+                <place xml:id="d94e96">
+                    <placeName>Eisenerz</placeName>
+                </place>
+                <place xml:id="d94e102">
+                    <placeName>England</placeName>
+                </place>
+                <place xml:id="d94e106">
+                    <placeName>Esseg</placeName>
+                    <placeName type="orig">Osijek</placeName>
+                </place>
+                <place xml:id="d94e115">
+                    <placeName>Fischamend</placeName>
+                </place>
+                <place xml:id="d94e117">
+                    <placeName>Fiume</placeName>
+                    <placeName type="orig">Rijeka</placeName>
+                </place>
+                <place xml:id="d94e123">
+                    <placeName>Frankreich</placeName>
+                </place>
+                <place xml:id="d94e129">
+                    <placeName>Fünfkirchen</placeName>
+                    <placeName type="orig">Pécs</placeName>
+                </place>
+                <place xml:id="d94e133">
+                    <placeName>Galizien</placeName>
+                </place>
+                <place xml:id="d94e146">
+                    <placeName>Görz und Gradiska</placeName>
+                    <placeName type="ref">Küstenland</placeName>
+                </place>
+                <place xml:id="d94e148">
+                    <placeName>Graz</placeName>
+                </place>
+                <place xml:id="d94e150">
+                    <placeName>Großwardein</placeName>
+                    <placeName type="orig">Oradea</placeName>
+                </place>
+                <place xml:id="d94e165">
+                    <placeName>Havlíčkův Brod</placeName>
+                    <placeName type="ref">Deutsch Brod</placeName>
+                </place>
+                <place xml:id="d94e169">
+                    <placeName>Hieflau</placeName>
+                </place>
+                <place xml:id="d94e179">
+                    <placeName>Holland</placeName>
+                </place>
+                <place xml:id="d94e188">
+                    <placeName>Iglau</placeName>
+                    <placeName type="orig">Jihlava</placeName>
+                </place>
+                <place xml:id="d94e192">
+                    <placeName>Innsbruck</placeName>
+                </place>
+                <place xml:id="d94e194">
+                    <placeName>Istrien</placeName>
+                </place>
+                <place xml:id="d94e196">
+                    <placeName>Italien</placeName>
+                </place>
+                <place xml:id="d94e198">
+                    <placeName>Jarosłav</placeName>
+                </place>
+                <place xml:id="d94e200">
+                    <placeName>Jihlava</placeName>
+                    <placeName type="ref">Iglau</placeName>
+                </place>
+                <place xml:id="d94e207">
+                    <placeName>Karlovac</placeName>
+                    <placeName type="ref">Karlstadt</placeName>
+                </place>
+                <place xml:id="d94e209">
+                    <placeName>Karlsburg</placeName>
+                    <placeName type="orig">Alba Iulia</placeName>
+                </place>
+                <place xml:id="d94e211">
+                    <placeName>Karlstadt</placeName>
+                    <placeName type="orig">Karlovac</placeName>
+                </place>
+                <place xml:id="d94e223">
+                    <placeName>Komotau</placeName>
+                    <placeName type="orig">Chomutov</placeName>
+                </place>
+                <place xml:id="d94e225">
+                    <placeName>Krain</placeName>
+                </place>
+                <place xml:id="d94e227">
+                    <placeName>Krakau</placeName>
+                    <placeName type="orig">Großherzogtum</placeName>
+                </place>
+                <place xml:id="d94e234">
+                    <placeName>Kroatien</placeName>
+                </place>
+                <place xml:id="d94e240">
+                    <placeName>Küstenland</placeName>
+                </place>
+                <place xml:id="d94e246">
+                    <placeName>Lemberg</placeName>
+                    <placeName type="orig">Lwiw</placeName>
+                </place>
+                <place xml:id="d94e253">
+                    <placeName>Linz</placeName>
+                </place>
+                <place xml:id="d94e257">
+                    <placeName>London</placeName>
+                </place>
+                <place xml:id="d94e261">
+                    <placeName>Lwiw</placeName>
+                    <placeName type="ref">Lemberg</placeName>
+                </place>
+                <place xml:id="d94e263">
+                    <placeName>Mähren</placeName>
+                </place>
+                <place xml:id="d94e278">
+                    <placeName>Mexiko</placeName>
+                </place>
+                <place xml:id="d94e282">
+                    <placeName>Militärgrenze</placeName>
+                </place>
+                <place xml:id="d94e286">
+                    <placeName>Montenegro</placeName>
+                </place>
+                <place xml:id="d94e290">
+                    <placeName>Moskau</placeName>
+                    <placeName type="orig">Moskwa</placeName>
+                </place>
+                <place xml:id="d94e292">
+                    <placeName>Moskwa</placeName>
+                    <placeName type="ref">Moskau</placeName>
+                </place>
+                <place xml:id="d94e294">
+                    <placeName>Mosonmagyarovár</placeName>
+                    <placeName type="ref">(Ungarisch-Altenburg)</placeName>
+                </place>
+                <place xml:id="d94e299">
+                    <placeName>Neumarkt</placeName>
+                </place>
+                <place xml:id="d94e301">
+                    <placeName>Niederösterreich</placeName>
+                </place>
+                <place xml:id="d94e303">
+                    <placeName>Niemezycki</placeName>
+                </place>
+                <place xml:id="d94e305">
+                    <placeName>Nußdorf</placeName>
+                </place>
+                <place xml:id="d94e307">
+                    <placeName>Oberösterreich</placeName>
+                </place>
+                <place xml:id="d94e309">
+                    <placeName>Ofen</placeName>
+                    <placeName type="orig">Buda</placeName>
+                </place>
+                <place xml:id="d94e311">
+                    <placeName>Olmütz</placeName>
+                    <placeName type="orig">Olomouc</placeName>
+                </place>
+                <place xml:id="d94e313">
+                    <placeName>Olomouc</placeName>
+                    <placeName type="ref">Olmütz</placeName>
+                </place>
+                <place xml:id="d94e315">
+                    <placeName>Oradea</placeName>
+                    <placeName type="ref">Großwardein</placeName>
+                </place>
+                <place xml:id="d94e317">
+                    <placeName>Osijek</placeName>
+                    <placeName type="ref">Esseg</placeName>
+                </place>
+                <place xml:id="d94e319">
+                    <placeName>Osmanisches Reich</placeName>
+                </place>
+                <place xml:id="d94e322">
+                    <placeName>Pardubitz</placeName>
+                    <placeName type="orig">Pardubice</placeName>
+                </place>
+                <place xml:id="d94e324">
+                    <placeName>Paris</placeName>
+                </place>
+                <place xml:id="d94e328">
+                    <placeName>Pécs</placeName>
+                    <placeName type="ref">Fünfkirchen</placeName>
+                </place>
+                <place xml:id="d94e330">
+                    <placeName>Pest</placeName>
+                </place>
+                <place xml:id="d94e338">
+                    <placeName>Pivka</placeName>
+                    <placeName type="ref">St. Peter</placeName>
+                </place>
+                <place xml:id="d94e347">
+                    <placeName>Prag</placeName>
+                    <placeName type="orig">Praha</placeName>
+                </place>
+                <place xml:id="d94e349">
+                    <placeName>Praha</placeName>
+                    <placeName type="ref">Prag</placeName>
+                </place>
+                <place xml:id="d94e363">
+                    <placeName>Rhein</placeName>
+                </place>
+                <place xml:id="d94e365">
+                    <placeName>Rijeka</placeName>
+                    <placeName type="ref">Fiume</placeName>
+                </place>
+                <place xml:id="d94e368">
+                    <placeName>Rom</placeName>
+                </place>
+                <place xml:id="d94e374">
+                    <placeName>Saaz</placeName>
+                    <placeName type="orig">Žatec</placeName>
+                </place>
+                <place xml:id="d94e378">
+                    <placeName>Salzburg</placeName>
+                </place>
+                <place xml:id="d94e380">
+                    <placeName>Save</placeName>
+                </place>
+                <place xml:id="d94e382">
+                    <placeName>Schattendorf</placeName>
+                </place>
+                <place xml:id="d94e386">
+                    <placeName>Schlesien</placeName>
+                </place>
+                <place xml:id="d94e403">
+                    <placeName>Semlin</placeName>
+                    <placeName type="orig">Zemun; heute Stadtteil von Belgrad</placeName>
+                </place>
+                <place xml:id="d94e407">
+                    <placeName>Serbien</placeName>
+                </place>
+                <place xml:id="d94e414">
+                    <placeName>Speyer</placeName>
+                </place>
+                <place xml:id="d94e416">
+                    <placeName>St. Peter</placeName>
+                    <placeName type="orig">Pivka</placeName>
+                </place>
+                <place xml:id="d94e418">
+                    <placeName>St. Valentin</placeName>
+                </place>
+                <place xml:id="d94e422">
+                    <placeName>Steiermark</placeName>
+                </place>
+                <place xml:id="d94e430">
+                    <placeName>Stuhlweißenburg</placeName>
+                    <placeName type="orig">Székesfehérvár</placeName>
+                </place>
+                <place xml:id="d94e432">
+                    <placeName>Suczawa</placeName>
+                    <placeName type="orig">Suceawa</placeName>
+                </place>
+                <place xml:id="d94e434">
+                    <placeName>Székesfehérvár</placeName>
+                    <placeName type="ref">Stuhlweißenburg</placeName>
+                </place>
+                <place xml:id="d94e441">
+                    <placeName>Tarnopol</placeName>
+                    <placeName type="orig">Ternopil</placeName>
+                </place>
+                <place xml:id="d94e443">
+                    <placeName>Tarnow</placeName>
+                    <placeName type="orig">Tarnów</placeName>
+                </place>
+                <place xml:id="d94e447">
+                    <placeName>Tirol</placeName>
+                </place>
+                <place xml:id="d94e451">
+                    <placeName>Trento</placeName>
+                    <placeName type="ref">Trient</placeName>
+                </place>
+                <place xml:id="d94e453">
+                    <placeName>Trient</placeName>
+                    <placeName type="orig">Trento</placeName>
+                </place>
+                <place xml:id="d94e455">
+                    <placeName>Triest</placeName>
+                    <placeName type="orig">Trieste</placeName>
+                </place>
+                <place xml:id="d94e457">
+                    <placeName>Ungarisch-Altenburg</placeName>
+                    <placeName type="orig">Mosonmagyarovár</placeName>
+                </place>
+                <place xml:id="d94e460">
+                    <placeName>Ungarn</placeName>
+                </place>
+                <place xml:id="d94e466">
+                    <placeName>Vejprty</placeName>
+                    <placeName type="ref">Weipert</placeName>
+                </place>
+                <place xml:id="d94e470">
+                    <placeName>Villach</placeName>
+                </place>
+                <place xml:id="d94e472">
+                    <placeName>Vorarlberg</placeName>
+                </place>
+                <place xml:id="d94e480">
+                    <placeName>Weipert</placeName>
+                    <placeName type="orig">Vejprty</placeName>
+                </place>
+                <place xml:id="d94e485">
+                    <placeName>Wieliczka</placeName>
+                </place>
+                <place xml:id="d94e487">
+                    <placeName>Wien</placeName>
+                </place>
+                <place xml:id="d94e495">
+                    <placeName>Zala</placeName>
+                    <placeName type="orig">Komitat</placeName>
+                </place>
+                <place xml:id="d94e497">
+                    <placeName>Žatec</placeName>
+                    <placeName type="ref">Saaz</placeName>
+                </place>
+                <place xml:id="d94e499">
+                    <placeName>Znaim</placeName>
+                    <placeName type="orig">Znojmo</placeName>
+                </place>
+                <place xml:id="d94e501">
+                    <placeName>Znojmo</placeName>
+                    <placeName type="ref">Znaim</placeName>
+                </place>
+            </listPlace>
             <listPerson>
-                <person xml:id="person_d9e4">
+                <person xml:id="d94e4">
                     <persName>
                         <surname>Alexy</surname>
                         <forename>Ludwig</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e6">
+                <person xml:id="d94e6">
                     <persName>
                         <surname>Andrássy von Czik-Szent-Király und Kraszna Horka</surname>
                         <forename>Gyula</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e10">
+                <person xml:id="d94e10">
                     <persName>
                         <surname>Ascher</surname>
                         <forename>Anton</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e12">
+                <person xml:id="d94e12">
                     <persName>
                         <surname>Auersperg</surname>
                         <forename>Adolf</forename>
                         <roleName>Fürst</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e14">
+                <person xml:id="d94e14">
                     <persName>
                         <surname>Auersperg</surname>
                         <forename>Karl (Carlos) Wilhelm Philipp</forename>
                         <roleName>Fürst</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e16">
+                <person xml:id="d94e16">
                     <persName>
                         <surname>Bach</surname>
                         <forename>Eduard</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e23">
+                <person xml:id="d94e23">
                     <persName>
                         <surname>Becke</surname>
                         <forename>Franz Karl</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e27">
+                <person xml:id="d94e27">
                     <persName>
                         <surname>Belcredi</surname>
                         <forename>Richard</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e31">
+                <person xml:id="d94e31">
                     <persName>
                         <surname>Berger</surname>
                         <forename>Johann Nepomuk</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e33">
+                <person xml:id="d94e33">
                     <persName>
                         <surname>Beust</surname>
                         <forename>Friedrich Ferdinand</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e37">
+                <person xml:id="d94e37">
                     <persName>
                         <surname>Bontoux</surname>
                         <forename>Paul Eugéne</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e41">
+                <person xml:id="d94e41">
                     <persName>
                         <surname>Brandeis-Weikersheim</surname>
                         <forename>Salomon</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e46">
+                <person xml:id="d94e46">
                     <persName>
                         <surname>Brauner</surname>
                         <forename>František August</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e48">
+                <person xml:id="d94e48">
                     <persName>
                         <surname>Brestel</surname>
                         <forename>Rudolf</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e50">
+                <person xml:id="d94e50">
                     <persName>
                         <surname>Brettner-Messler</surname>
                         <forename>Horst</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e71">
+                <person xml:id="d94e71">
                     <persName>
                         <surname>Chorinsky</surname>
                         <forename>Gräfin</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e73">
+                <person xml:id="d94e73">
                     <persName>
                         <surname>Christiani-Kronwald</surname>
                         <forename>Theodor</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e75">
+                <person xml:id="d94e75">
                     <persName>
                         <surname>Colloredo-Mannsfeld </surname>
                         <forename>Josef</forename>
                         <roleName>Fürst</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e77">
+                <person xml:id="d94e77">
                     <persName>
                         <surname>Conrad Edler v. Eybesfeld</surname>
                         <forename>Sigmund</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e79">
+                <person xml:id="d94e79">
                     <persName>
                         <surname>Czerkawski</surname>
                         <forename>Eusebius</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e83">
+                <person xml:id="d94e83">
                     <persName>
                         <surname>Deák</surname>
                         <forename>Franz</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e85">
+                <person xml:id="d94e85">
                     <persName>
                         <surname>Deutsch Brod (Deutschbrod; Havlíčkův Brod</surname>
                         <forename>früher Německý Brod)</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e87">
+                <person xml:id="d94e87">
                     <persName>
                         <surname>Dobler</surname>
                         <forename>Moriz</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e92">
+                <person xml:id="d94e92">
                     <persName>
                         <surname>Dubský von Třebomyslitz</surname>
                         <forename>Emanuel</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e94">
+                <person xml:id="d94e94">
                     <persName>
                         <surname>Dunin-Borkowski</surname>
                         <forename>Severin</forename>
                         <roleName>Grafen</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e98">
+                <person xml:id="d94e98">
                     <persName>
                         <surname>Emperger</surname>
                         <forename>Vinzenz Benedikt v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e100">
+                <person xml:id="d94e100">
                     <persName>
                         <surname>Engel-Janosi</surname>
                         <forename>Friedrich</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e104">
+                <person xml:id="d94e104">
                     <persName>
                         <surname>Eötvös</surname>
                         <forename>Joseph</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e108">
+                <person xml:id="d94e108">
                     <persName>
                         <surname>Ferdinand I.</surname>
                         <forename>Kaiser von Österreich</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e110">
+                <person xml:id="d94e110">
                     <persName>
                         <surname>Festetics v. Tolna</surname>
                         <forename>Georg</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e112">
+                <person xml:id="d94e112">
                     <persName>
                         <surname>Festetics</surname>
                         <forename>Georg</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e119">
+                <person xml:id="d94e119">
                     <persName>
                         <surname>Fluck Edler v. Leidenkron</surname>
                         <forename>Joseph Bruno</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e121">
+                <person xml:id="d94e121">
                     <persName>
                         <surname>Fontana</surname>
                         <forename>Johann v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e125">
+                <person xml:id="d94e125">
                     <persName>
                         <surname>Franz Joseph I.</surname>
                         <forename>Kaiser v. Österreich</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e127">
+                <person xml:id="d94e127">
                     <persName>
                         <surname>Friedenfels</surname>
                         <forename>Eugen</forename>
                         <roleName>Freiherrn v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e131">
+                <person xml:id="d94e131">
                     <persName>
                         <surname>Gagern</surname>
                         <forename>Maximilian</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e135">
+                <person xml:id="d94e135">
                     <persName>
                         <surname>Geringer v. Oedenberg</surname>
                         <forename>Carl</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e138">
+                <person xml:id="d94e138">
                     <persName>
                         <surname>Giskra</surname>
                         <forename>Karl</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e140">
+                <person xml:id="d94e140">
                     <persName>
                         <surname>Gobbi</surname>
                         <forename>Ferdinand</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e142">
+                <person xml:id="d94e142">
                     <persName>
                         <surname>Gołuchowski v. Gołuchowo</surname>
                         <forename>Agenor</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e144">
+                <person xml:id="d94e144">
                     <persName>
                         <surname>Gorove v. Gattája</surname>
                         <forename>Stephan</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e152">
+                <person xml:id="d94e152">
                     <persName>
                         <surname>Haase</surname>
                         <forename>Adolph Theodor</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e154">
+                <person xml:id="d94e154">
                     <persName>
                         <surname>Haller</surname>
                         <forename>Franz</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e156">
+                <person xml:id="d94e156">
                     <persName>
                         <surname>Hanslick</surname>
                         <forename>Eduard</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e158">
+                <person xml:id="d94e158">
                     <persName>
                         <surname>Hartig</surname>
                         <forename>Edmund</forename>
                         <roleName>Graf v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e161">
+                <person xml:id="d94e161">
                     <persName>
                         <surname>Hasner von Artha</surname>
                         <forename>Leopold</forename>
                         <roleName>Ritter</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e163">
+                <person xml:id="d94e163">
                     <persName>
                         <surname>Havelka</surname>
                         <forename>Mathias</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e167">
+                <person xml:id="d94e167">
                     <persName>
                         <surname>Herbst</surname>
                         <forename>Eduard</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e171">
+                <person xml:id="d94e171">
                     <persName>
                         <surname>Hock</surname>
                         <forename>Carl</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e173">
+                <person xml:id="d94e173">
                     <persName>
                         <surname>Höfken</surname>
                         <forename>Gustav</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e175">
+                <person xml:id="d94e175">
                     <persName>
                         <surname>Hohenwart-Gerlachstein</surname>
                         <forename>Karl</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e177">
+                <person xml:id="d94e177">
                     <persName>
                         <surname>Hollán</surname>
                         <forename>Ernő</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e181">
+                <person xml:id="d94e181">
                     <persName>
                         <surname>Horváth</surname>
                         <forename>Balthasar v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e184">
+                <person xml:id="d94e184">
                     <persName>
                         <surname>Hübner</surname>
                         <forename>Joseph Alexander</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e186">
+                <person xml:id="d94e186">
                     <persName>
                         <surname>Hye Ritter v. Glunek</surname>
                         <forename>Anton</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e190">
+                <person xml:id="d94e190">
                     <persName>
                         <surname>Ihering</surname>
                         <forename>Rudolf v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e202">
+                <person xml:id="d94e202">
                     <persName>
                         <surname>John</surname>
                         <forename>Franz</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e204">
+                <person xml:id="d94e204">
                     <persName>
                         <surname>Kaiserfeld</surname>
                         <forename>Moriz v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e213">
+                <person xml:id="d94e213">
                     <persName>
                         <surname>Kellersperg</surname>
                         <forename>Ernst</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e215">
+                <person xml:id="d94e215">
                     <persName>
                         <surname>Kinsky</surname>
                         <forename>Ferdinand</forename>
                         <roleName>Fürst</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e217">
+                <person xml:id="d94e217">
                     <persName>
                         <surname>Klein</surname>
                         <forename>Brüder</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e219">
+                <person xml:id="d94e219">
                     <persName>
                         <surname>Kletečka</surname>
                         <forename>Thomas</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e221">
+                <person xml:id="d94e221">
                     <persName>
                         <surname>Kolmer</surname>
                         <forename>Gustav</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e230">
+                <person xml:id="d94e230">
                     <persName>
                         <surname>Kretschmayr</surname>
                         <forename>Heinrich</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e232">
+                <person xml:id="d94e232">
                     <persName>
                         <surname>Kriegsau</surname>
                         <forename>Adolph</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e236">
+                <person xml:id="d94e236">
                     <persName>
                         <surname>Kübeck</surname>
                         <forename>Karl Friedrich</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e238">
+                <person xml:id="d94e238">
                     <persName>
                         <surname>Kussevich v. Szamobor</surname>
                         <forename>Aemilian Franz Joseph</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e242">
+                <person xml:id="d94e242">
                     <persName>
                         <surname>Lackenbacher</surname>
                         <forename>Eduard v.</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e244">
+                <person xml:id="d94e244">
                     <persName>
                         <surname>Lanna</surname>
                         <forename>Adalbert</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e248">
+                <person xml:id="d94e248">
                     <persName>
                         <surname>Licot</surname>
                         <forename>Marie Honoré Octave Augustin (Licot de Nismes)</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e250">
+                <person xml:id="d94e250">
                     <persName>
                         <surname>Lindenbach</surname>
                         <forename>Emanuel Heinrich Komers</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e255">
+                <person xml:id="d94e255">
                     <persName>
                         <surname>Ljubiša</surname>
                         <forename>Stephan</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e259">
+                <person xml:id="d94e259">
                     <persName>
                         <surname>Lónyay von Nagylónya und Vásárosnamény</surname>
                         <forename>Menyhért</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e265">
+                <person xml:id="d94e265">
                     <persName>
                         <surname>Mailáth v. Szekhely</surname>
                         <forename>Georg</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e267">
+                <person xml:id="d94e267">
                     <persName>
                         <surname>Malfèr</surname>
                         <forename>Stefan</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e269">
+                <person xml:id="d94e269">
                     <persName>
                         <surname>Marcher</surname>
                         <forename>Joseph</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e271">
+                <person xml:id="d94e271">
                     <persName>
                         <surname>Matzinger</surname>
                         <forename>Franz</forename>
                         <roleName>Edler v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e273">
+                <person xml:id="d94e273">
                     <persName>
                         <surname>Mažuranić</surname>
                         <forename>Ivan</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e276">
+                <person xml:id="d94e276">
                     <persName>
                         <surname>Mensdorff-Pouilly</surname>
                         <forename>Alexander</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e280">
+                <person xml:id="d94e280">
                     <persName>
                         <surname>Mikó v. Hidvég</surname>
                         <forename>Emerich</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e284">
+                <person xml:id="d94e284">
                     <persName>
                         <surname>Mittrowsky</surname>
                         <forename>Wladimir</forename>
                         <roleName>Graf v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e288">
+                <person xml:id="d94e288">
                     <persName>
                         <surname>Morzin</surname>
                         <forename>Peter</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e296">
+                <person xml:id="d94e296">
                     <persName>
                         <surname>Mühlfeld Edler von Megerle</surname>
                         <forename>Eugen</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e326">
+                <person xml:id="d94e326">
                     <persName>
                         <surname>Pasetti Ritter (ab 6. 6. 1867 Freiherr) v. Friedenburg</surname>
                         <forename>Florian</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e332">
+                <person xml:id="d94e332">
                     <persName>
                         <surname>Pfeiffer</surname>
                         <forename>Johann</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e334">
+                <person xml:id="d94e334">
                     <persName>
                         <surname>Philippović v. Philippsberg</surname>
                         <forename>Joseph</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e336">
+                <person xml:id="d94e336">
                     <persName>
                         <surname>Pillerdorff (Pillersdorf)</surname>
                         <forename>Franz Xaver</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e340">
+                <person xml:id="d94e340">
                     <persName>
                         <surname>Plener</surname>
                         <forename>Ignaz</forename>
                         <roleName>Edler v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e342">
+                <person xml:id="d94e342">
                     <persName>
                         <surname>Poche</surname>
                         <forename>Adolph</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e345">
+                <person xml:id="d94e345">
                     <persName>
                         <surname>Potocki</surname>
                         <forename>Alfred</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e351">
+                <person xml:id="d94e351">
                     <persName>
                         <surname>Prato</surname>
                         <forename>Giovanni a</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e353">
+                <person xml:id="d94e353">
                     <persName>
                         <surname>Pretis di Cagnodo</surname>
                         <forename>Sisinio</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e355">
+                <person xml:id="d94e355">
                     <persName>
                         <surname>Rački</surname>
                         <forename>Franz</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e357">
+                <person xml:id="d94e357">
                     <persName>
                         <surname>Rauscher</surname>
                         <forename>Joseph Othmar</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e359">
+                <person xml:id="d94e359">
                     <persName>
                         <surname>Rechberg und Rothenlöwen</surname>
                         <forename>Johann Bernhard</forename>
                         <roleName>Graf v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e361">
+                <person xml:id="d94e361">
                     <persName>
                         <surname>Redlich</surname>
                         <forename>Josef</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e370">
+                <person xml:id="d94e370">
                     <persName>
                         <surname>Rossbacher</surname>
                         <forename>Rudolph</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e372">
+                <person xml:id="d94e372">
                     <persName>
                         <surname>Rothkirch und Panthen</surname>
                         <forename>Karl</forename>
                         <roleName>Graf v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e376">
+                <person xml:id="d94e376">
                     <persName>
                         <surname>Salm-Reifferscheidt</surname>
                         <forename>Franz Joseph</forename>
                         <roleName>Reichs- und Altgraf zu</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e384">
+                <person xml:id="d94e384">
                     <persName>
                         <surname>Schindler</surname>
                         <forename>Alexander Julius</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e388">
+                <person xml:id="d94e388">
                     <persName>
                         <surname>Schlosser</surname>
                         <forename>Peter</forename>
                         <roleName>Edler v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e391">
+                <person xml:id="d94e391">
                     <persName>
                         <surname>Schmerling</surname>
                         <forename>Anton</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e393">
+                <person xml:id="d94e393">
                     <persName>
                         <surname>Schneider</surname>
                         <forename>Carl Samuel</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e395">
+                <person xml:id="d94e395">
                     <persName>
                         <surname>Schultes</surname>
                         <forename>Karl</forename>
                         <roleName>Edler v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e397">
+                <person xml:id="d94e397">
                     <persName>
                         <surname>Schwarzenberg</surname>
                         <forename>Felix</forename>
                         <roleName>Fürst zu</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e399">
+                <person xml:id="d94e399">
                     <persName>
                         <surname>Scrinzi</surname>
                         <forename>Giovanni Battista</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e401">
+                <person xml:id="d94e401">
                     <persName>
                         <surname>Seidl</surname>
                         <forename>Jakob</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e405">
+                <person xml:id="d94e405">
                     <persName>
                         <surname>Sennyey de Kis Sennyey</surname>
                         <forename>Paul</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e409">
+                <person xml:id="d94e409">
                     <persName>
                         <surname>Šokčević</surname>
                         <forename>Joseph</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e411">
+                <person xml:id="d94e411">
                     <persName>
                         <surname>Somogyi</surname>
                         <forename>Éva</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e420">
+                <person xml:id="d94e420">
                     <persName>
                         <surname>Stählin</surname>
                         <forename>Carl</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e424">
+                <person xml:id="d94e424">
                     <persName>
                         <surname>Steinitz</surname>
                         <forename>Joseph Eduard</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e426">
+                <person xml:id="d94e426">
                     <persName>
                         <surname>Sternberg</surname>
                         <forename>Jaroslav</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e428">
+                <person xml:id="d94e428">
                     <persName>
                         <surname>Strossmayer</surname>
                         <forename>Joseph Georg</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e437">
+                <person xml:id="d94e437">
                     <persName>
                         <surname>Taaffe</surname>
                         <forename>Eduard</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e439">
+                <person xml:id="d94e439">
                     <persName>
                         <surname>Tallacchini</surname>
                         <forename>Felice</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e445">
+                <person xml:id="d94e445">
                     <persName>
                         <surname>Taschek</surname>
                         <forename>Franz</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e449">
+                <person xml:id="d94e449">
                     <persName>
                         <surname>Toggenburg</surname>
                         <forename>Georg</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e462">
+                <person xml:id="d94e462">
                     <persName>
                         <surname>Van Hoegaerden</surname>
                         <forename>Victor</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e464">
+                <person xml:id="d94e464">
                     <persName>
                         <surname>Vay v. Vaya</surname>
                         <forename>Nikolaus</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e468">
+                <person xml:id="d94e468">
                     <persName>
                         <surname>Vesque v. Püttlingen</surname>
                         <forename>Johann</forename>
                         <roleName>Freiherr</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e474">
+                <person xml:id="d94e474">
                     <persName>
                         <surname>Waldstein</surname>
                         <forename>Ernst</forename>
                         <roleName>Graf</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e476">
+                <person xml:id="d94e476">
                     <persName>
                         <surname>Waldstein</surname>
                         <forename>Ernst</forename>
                         <roleName>Graf v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e478">
+                <person xml:id="d94e478">
                     <persName>
                         <surname>Wehli</surname>
                         <forename>August</forename>
                         <roleName>Ritter v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e483">
+                <person xml:id="d94e483">
                     <persName>
                         <surname>Wenckheim</surname>
                         <forename>Béla</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e489">
+                <person xml:id="d94e489">
                     <persName>
                         <surname>Winterstein</surname>
                         <forename>Simon</forename>
                     </persName>
                 </person>
-                <person xml:id="person_d9e491">
+                <person xml:id="d94e491">
                     <persName>
                         <surname>Wüllerstorff und Urbair</surname>
                         <forename>Bernhard</forename>
                         <roleName>Freiherr v.</roleName>
                     </persName>
                 </person>
-                <person xml:id="person_d9e493">
+                <person xml:id="d94e493">
                     <persName>
                         <surname>Wurzbach Edler v. Tannenberg</surname>
                         <forename>Karl</forename>

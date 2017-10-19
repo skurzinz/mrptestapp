@@ -1,35 +1,831 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Ortsverzeichnis</title>
-                <respStmt>
-                    <resp>providing the content</resp>
-                    <name>Max Mustermann</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Ortsverzeichnis</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="index_places">
-                <listPlace>
-                    <place xml:id="wien">
-                        <placeName>Wien</placeName>
-                        <location>
-                            <geo decls="#LatLng">48.2082 16.37169</geo>
-                        </location>
-                        <idno type="URL">http://www.geonames.org/2761367/wien.html</idno>
-                    </place>
-                </listPlace>
-            </div>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>listplace for mp-1867</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>derived from 13 Cisleithanien I  Register alphabetisch Thesaurus Personen und Orte.docx via http://127.0.0.1:8080/exist/apps/mp-app/pages/w2tei.html, georefenced with teihencer</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="place_d9e2">
+               <placeName>Karlsburg</placeName>
+               <location>
+                  <geo decls="#LatLng">46.06667 23.58333</geo>
+               </location>
+               <idno>http://sws.geonames.org/686578/</idno>
+               <idno>mp-register-1867d9e2</idno>
+            </place>
+            <place xml:id="place_d9e8">
+               <placeName>Arad</placeName>
+               <location>
+                  <geo decls="#LatLng">46.18333 21.31667</geo>
+               </location>
+               <idno>http://sws.geonames.org/686254/</idno>
+               <idno>mp-register-1867d9e8</idno>
+            </place>
+            <place xml:id="place_d9e20">
+               <placeName>Barcs</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e20</idno>
+            </place>
+            <place xml:id="place_d9e25">
+               <placeName>Békés</placeName>
+               <location>
+                  <geo decls="#LatLng">46.76667 21.13333</geo>
+               </location>
+               <idno>http://sws.geonames.org/722439/</idno>
+               <idno>mp-register-1867d9e25</idno>
+            </place>
+            <place xml:id="place_d9e29">
+               <placeName>Belgium</placeName>
+               <location>
+                  <geo decls="#LatLng">50.75 4.5</geo>
+               </location>
+               <idno>http://sws.geonames.org/2802361/</idno>
+               <idno>mp-register-1867d9e29</idno>
+            </place>
+            <place xml:id="place_d9e35">
+               <placeName>Böhmen</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e35</idno>
+            </place>
+            <place xml:id="place_d9e39">
+               <placeName>Bosnia and Herzegovina</placeName>
+               <location>
+                  <geo decls="#LatLng">44.25 17.83333</geo>
+               </location>
+               <idno>http://sws.geonames.org/3277605/</idno>
+               <idno>mp-register-1867d9e39</idno>
+            </place>
+            <place xml:id="place_d9e43">
+               <placeName>Braunau am Inn</placeName>
+               <location>
+                  <geo decls="#LatLng">48.25628 13.04343</geo>
+               </location>
+               <idno>http://sws.geonames.org/2781520/</idno>
+               <idno>mp-register-1867d9e43</idno>
+            </place>
+            <place xml:id="place_d9e52">
+               <placeName>Brno</placeName>
+               <location>
+                  <geo decls="#LatLng">49.19522 16.60796</geo>
+               </location>
+               <idno>http://sws.geonames.org/3078610/</idno>
+               <idno>mp-register-1867d9e52</idno>
+            </place>
+            <place xml:id="place_d9e54">
+               <placeName>Brody</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e54</idno>
+            </place>
+            <place xml:id="place_d9e56">
+               <placeName>Brünn</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e56</idno>
+            </place>
+            <place xml:id="place_d9e58">
+               <placeName>Brussels</placeName>
+               <location>
+                  <geo decls="#LatLng">50.85045 4.34878</geo>
+               </location>
+               <idno>http://sws.geonames.org/2800866/</idno>
+               <idno>mp-register-1867d9e58</idno>
+            </place>
+            <place xml:id="place_d9e18">
+               <placeName>Bakar</placeName>
+               <location>
+                  <geo decls="#LatLng">45.30861 14.53028</geo>
+               </location>
+               <idno>http://sws.geonames.org/3204612/</idno>
+               <idno>mp-register-1867d9e18</idno>
+               <idno>mp-register-1867d9e60</idno>
+            </place>
+            <place xml:id="place_d9e62">
+               <placeName>Buda</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e62</idno>
+            </place>
+            <place xml:id="place_d9e64">
+               <placeName>Budapest</placeName>
+               <location>
+                  <geo decls="#LatLng">47.49801 19.03991</geo>
+               </location>
+               <idno>http://sws.geonames.org/3054643/</idno>
+               <idno>mp-register-1867d9e64</idno>
+            </place>
+            <place xml:id="place_d9e66">
+               <placeName>Bukowina</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e66</idno>
+            </place>
+            <place xml:id="place_d9e69">
+               <placeName>Chomutov</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e69</idno>
+            </place>
+            <place xml:id="place_d9e81">
+               <placeName>Dalmatien</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e81</idno>
+            </place>
+            <place xml:id="place_d9e89">
+               <placeName>Donau</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e89</idno>
+            </place>
+            <place xml:id="place_d9e96">
+               <placeName>Eisenerz</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e96</idno>
+            </place>
+            <place xml:id="place_d9e102">
+               <placeName>England</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e102</idno>
+            </place>
+            <place xml:id="place_d9e106">
+               <placeName>Esseg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e106</idno>
+            </place>
+            <place xml:id="place_d9e115">
+               <placeName>Fischamend</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e115</idno>
+            </place>
+            <place xml:id="place_d9e117">
+               <placeName>Fiume</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e117</idno>
+            </place>
+            <place xml:id="place_d9e123">
+               <placeName>France</placeName>
+               <location>
+                  <geo decls="#LatLng">46.0 2.0</geo>
+               </location>
+               <idno>http://sws.geonames.org/3017382/</idno>
+               <idno>mp-register-1867d9e123</idno>
+            </place>
+            <place xml:id="place_d9e129">
+               <placeName>Fünfkirchen</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e129</idno>
+            </place>
+            <place xml:id="place_d9e133">
+               <placeName>Galizien</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e133</idno>
+            </place>
+             <place xml:id="place_d9e146">
+                 <placeName>Görz und Gradisca</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>http://d-nb.info/gnd/113124-2/</idno>
+               <idno>mp-register-1867d9e146</idno>
+            </place>
+            <place xml:id="place_d9e148">
+               <placeName>Graz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.06667 15.45</geo>
+               </location>
+               <idno>http://sws.geonames.org/2778067/</idno>
+               <idno>mp-register-1867d9e148</idno>
+            </place>
+            <place xml:id="place_d9e165">
+               <placeName>Havlíčkův Brod</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e165</idno>
+            </place>
+            <place xml:id="place_d9e169">
+               <placeName>Hieflau</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e169</idno>
+            </place>
+            <place xml:id="place_d9e179">
+               <placeName>Holland</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e179</idno>
+            </place>
+            <place xml:id="place_d9e188">
+               <placeName>Iglau</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e188</idno>
+            </place>
+            <place xml:id="place_d9e192">
+               <placeName>Innsbruck</placeName>
+               <location>
+                  <geo decls="#LatLng">47.26266 11.39454</geo>
+               </location>
+               <idno>http://sws.geonames.org/2775220/</idno>
+               <idno>mp-register-1867d9e192</idno>
+            </place>
+            <place xml:id="place_d9e194">
+               <placeName>Istrien</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e194</idno>
+            </place>
+            <place xml:id="place_d9e196">
+               <placeName>Italien</placeName>
+               <location>
+                  <geo decls="#LatLng">42.83333 12.83333</geo>
+               </location>
+               <idno>http://sws.geonames.org/3175395/</idno>
+               <idno>mp-register-1867d9e196</idno>
+            </place>
+            <place xml:id="place_d9e198">
+               <placeName>Jarosłav</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e198</idno>
+            </place>
+            <place xml:id="place_d9e200">
+               <placeName>Jihlava</placeName>
+               <location>
+                  <geo decls="#LatLng">49.3961 15.59124</geo>
+               </location>
+               <idno>http://sws.geonames.org/3074199/</idno>
+               <idno>mp-register-1867d9e200</idno>
+            </place>
+            <place xml:id="place_d9e207">
+               <placeName>Karlovac</placeName>
+               <location>
+                  <geo decls="#LatLng">45.48722 15.54778</geo>
+               </location>
+               <idno>http://sws.geonames.org/3198259/</idno>
+               <idno>mp-register-1867d9e207</idno>
+            </place>
+            <place xml:id="place_d9e209">
+               <placeName>Karlsburg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e209</idno>
+            </place>
+            <place xml:id="place_d9e211">
+               <placeName>Karlstadt</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e211</idno>
+            </place>
+            <place xml:id="place_d9e223">
+               <placeName>Komotau</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e223</idno>
+            </place>
+            <place xml:id="place_d9e225">
+               <placeName>Krain</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e225</idno>
+            </place>
+            <place xml:id="place_d9e227">
+               <placeName>Krakau</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e227</idno>
+            </place>
+            <place xml:id="place_d9e234">
+               <placeName>Croatia</placeName>
+               <location>
+                  <geo decls="#LatLng">45.16667 15.5</geo>
+               </location>
+               <idno>http://sws.geonames.org/3202326/</idno>
+               <idno>mp-register-1867d9e234</idno>
+            </place>
+            <place xml:id="place_d9e240">
+               <placeName>Küstenland</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e240</idno>
+            </place>
+            <place xml:id="place_d9e246">
+               <placeName>Lemberg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e246</idno>
+            </place>
+            <place xml:id="place_d9e253">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30639 14.28611</geo>
+               </location>
+               <idno>http://sws.geonames.org/2772400/</idno>
+               <idno>mp-register-1867d9e253</idno>
+            </place>
+            <place xml:id="place_d9e257">
+               <placeName>London</placeName>
+               <location>
+                  <geo decls="#LatLng">51.50853 -0.12574</geo>
+               </location>
+               <idno>http://sws.geonames.org/2643743/</idno>
+               <idno>mp-register-1867d9e257</idno>
+            </place>
+             <place xml:id="place_d9e261">
+                 <placeName>Lemberg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>http://d-nb.info/gnd/4035304-7/</idno>
+               <idno>mp-register-1867d9e261</idno>
+            </place>
+            <place xml:id="place_d9e263">
+               <placeName>Mähren</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e263</idno>
+            </place>
+            <place xml:id="place_d9e278">
+               <placeName>Mexico</placeName>
+               <location>
+                  <geo decls="#LatLng">23.0 -102.0</geo>
+               </location>
+               <idno>http://sws.geonames.org/3996063/</idno>
+               <idno>mp-register-1867d9e278</idno>
+            </place>
+            <place xml:id="place_d9e282">
+               <placeName>Militärgrenze</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e282</idno>
+            </place>
+            <place xml:id="place_d9e286">
+               <placeName>Montenegro</placeName>
+               <location>
+                  <geo decls="#LatLng">42.75 19.25</geo>
+               </location>
+               <idno>http://sws.geonames.org/3194884/</idno>
+               <idno>mp-register-1867d9e286</idno>
+            </place>
+            <place xml:id="place_d9e290">
+               <placeName>Moscow</placeName>
+               <location>
+                  <geo decls="#LatLng">55.75222 37.61556</geo>
+               </location>
+               <idno>http://sws.geonames.org/524901/</idno>
+               <idno>mp-register-1867d9e290</idno>
+               <idno>mp-register-1867d9e292</idno>
+            </place>
+            <place xml:id="place_d9e294">
+               <placeName>Mosonmagyaróvár</placeName>
+               <location>
+                  <geo decls="#LatLng">47.86789 17.26994</geo>
+               </location>
+               <idno>http://sws.geonames.org/3047896/</idno>
+               <idno>mp-register-1867d9e294</idno>
+            </place>
+            <place xml:id="place_d9e299">
+               <placeName>Neumarkt</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e299</idno>
+            </place>
+            <place xml:id="place_d9e301">
+               <placeName>Niederösterreich</placeName>
+               <location>
+                  <geo decls="#LatLng">48.33333 15.75</geo>
+               </location>
+               <idno>http://sws.geonames.org/2770542/</idno>
+               <idno>mp-register-1867d9e301</idno>
+            </place>
+            <place xml:id="place_d9e303">
+               <placeName>Niemezycki</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e303</idno>
+            </place>
+            <place xml:id="place_d9e305">
+               <placeName>Nußdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e305</idno>
+            </place>
+            <place xml:id="place_d9e307">
+               <placeName>Oberösterreich</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e307</idno>
+            </place>
+            <place xml:id="place_d9e309">
+               <placeName>Ofen</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e309</idno>
+            </place>
+            <place xml:id="place_d9e311">
+               <placeName>Olmütz</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e311</idno>
+            </place>
+            <place xml:id="place_d9e313">
+               <placeName>Olomouc</placeName>
+               <location>
+                  <geo decls="#LatLng">49.59552 17.25175</geo>
+               </location>
+               <idno>http://sws.geonames.org/3069011/</idno>
+               <idno>mp-register-1867d9e313</idno>
+            </place>
+            <place xml:id="place_d9e150">
+               <placeName>Großwardein</placeName>
+               <location>
+                  <geo decls="#LatLng">47.0458 21.91833</geo>
+               </location>
+               <idno>http://sws.geonames.org/671768/</idno>
+               <idno>mp-register-1867d9e150</idno>
+               <idno>mp-register-1867d9e315</idno>
+            </place>
+            <place xml:id="place_d9e317">
+               <placeName>Osijek</placeName>
+               <location>
+                  <geo decls="#LatLng">45.55111 18.69389</geo>
+               </location>
+               <idno>http://sws.geonames.org/3193935/</idno>
+               <idno>mp-register-1867d9e317</idno>
+            </place>
+            <place xml:id="place_d9e319">
+               <placeName>Osmanisches Reich</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e319</idno>
+            </place>
+            <place xml:id="place_d9e322">
+               <placeName>Pardubitz</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e322</idno>
+            </place>
+            <place xml:id="place_d9e324">
+               <placeName>Paris</placeName>
+               <location>
+                  <geo decls="#LatLng">48.85341 2.3488</geo>
+               </location>
+               <idno>http://sws.geonames.org/2988507/</idno>
+               <idno>mp-register-1867d9e324</idno>
+            </place>
+            <place xml:id="place_d9e328">
+               <placeName>Pécs</placeName>
+               <location>
+                  <geo decls="#LatLng">46.08333 18.23333</geo>
+               </location>
+               <idno>http://sws.geonames.org/3046526/</idno>
+               <idno>mp-register-1867d9e328</idno>
+            </place>
+            <place xml:id="place_d9e330">
+               <placeName>Pest</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e330</idno>
+            </place>
+            <place xml:id="place_d9e338">
+               <placeName>Pivka</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e338</idno>
+            </place>
+            <place xml:id="place_d9e347">
+               <placeName>Prag</placeName>
+               <location>
+                  <geo decls="#LatLng">50.08804 14.42076</geo>
+               </location>
+               <idno>http://sws.geonames.org/3067696/</idno>
+               <idno>mp-register-1867d9e347</idno>
+               <idno>mp-register-1867d9e349</idno>
+            </place>
+            <place xml:id="place_d9e363">
+               <placeName>Rhein</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e363</idno>
+            </place>
+            <place xml:id="place_d9e365">
+               <placeName>Rijeka</placeName>
+               <location>
+                  <geo decls="#LatLng">45.32673 14.44241</geo>
+               </location>
+               <idno>http://sws.geonames.org/3191648/</idno>
+               <idno>mp-register-1867d9e365</idno>
+            </place>
+            <place xml:id="place_d9e368">
+               <placeName>Rome</placeName>
+               <location>
+                  <geo decls="#LatLng">41.89193 12.51133</geo>
+               </location>
+               <idno>http://sws.geonames.org/3169070/</idno>
+               <idno>mp-register-1867d9e368</idno>
+            </place>
+            <place xml:id="place_d9e374">
+               <placeName>Saaz</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e374</idno>
+            </place>
+            <place xml:id="place_d9e378">
+               <placeName>Salzburg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.79941 13.04399</geo>
+               </location>
+               <idno>http://sws.geonames.org/2766824/</idno>
+               <idno>mp-register-1867d9e378</idno>
+            </place>
+            <place xml:id="place_d9e380">
+               <placeName>Save</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e380</idno>
+            </place>
+            <place xml:id="place_d9e382">
+               <placeName>Schattendorf</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e382</idno>
+            </place>
+            <place xml:id="place_d9e386">
+               <placeName>Schlesien</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e386</idno>
+            </place>
+            <place xml:id="place_d9e403">
+               <placeName>Semlin</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e403</idno>
+            </place>
+            <place xml:id="place_d9e407">
+               <placeName>Serbia</placeName>
+               <location>
+                  <geo decls="#LatLng">44.81892 20.45998</geo>
+               </location>
+               <idno>http://sws.geonames.org/6290252/</idno>
+               <idno>mp-register-1867d9e407</idno>
+            </place>
+            <place xml:id="place_d9e414">
+               <placeName>Speyer</placeName>
+               <location>
+                  <geo decls="#LatLng">49.32083 8.43111</geo>
+               </location>
+               <idno>http://sws.geonames.org/2830582/</idno>
+               <idno>mp-register-1867d9e414</idno>
+            </place>
+            <place xml:id="place_d9e416">
+               <placeName>St Peter Port</placeName>
+               <location>
+                  <geo decls="#LatLng">49.45981 -2.53527</geo>
+               </location>
+               <idno>http://sws.geonames.org/3042287/</idno>
+               <idno>mp-register-1867d9e416</idno>
+            </place>
+            <place xml:id="place_d9e418">
+               <placeName>St. Valentin</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e418</idno>
+            </place>
+            <place xml:id="place_d9e422">
+               <placeName>Steiermark</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e422</idno>
+            </place>
+            <place xml:id="place_d9e430">
+               <placeName>Stuhlweißenburg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e430</idno>
+            </place>
+            <place xml:id="place_d9e432">
+               <placeName>Suczawa</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e432</idno>
+            </place>
+            <place xml:id="place_d9e434">
+               <placeName>Székesfehérvár</placeName>
+               <location>
+                  <geo decls="#LatLng">47.18995 18.41034</geo>
+               </location>
+               <idno>http://sws.geonames.org/3044774/</idno>
+               <idno>mp-register-1867d9e434</idno>
+            </place>
+            <place xml:id="place_d9e441">
+               <placeName>Tarnopol</placeName>
+               <location>
+                  <geo decls="#LatLng">49.55589 25.60556</geo>
+               </location>
+               <idno>http://sws.geonames.org/691650/</idno>
+               <idno>mp-register-1867d9e441</idno>
+            </place>
+            <place xml:id="place_d9e443">
+               <placeName>Tarnów</placeName>
+               <location>
+                  <geo decls="#LatLng">50.01381 20.98698</geo>
+               </location>
+               <idno>http://sws.geonames.org/757026/</idno>
+               <idno>mp-register-1867d9e443</idno>
+            </place>
+            <place xml:id="place_d9e447">
+               <placeName>Tirol</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e447</idno>
+            </place>
+            <place xml:id="place_d9e451">
+               <placeName>Trento</placeName>
+               <location>
+                  <geo decls="#LatLng">46.06787 11.12108</geo>
+               </location>
+               <idno>http://sws.geonames.org/3165243/</idno>
+               <idno>mp-register-1867d9e451</idno>
+            </place>
+            <place xml:id="place_d9e453">
+               <placeName>Trient</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e453</idno>
+            </place>
+            <place xml:id="place_d9e455">
+               <placeName>Triest</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e455</idno>
+            </place>
+            <place xml:id="place_d9e457">
+               <placeName>Ungarisch-Altenburg</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e457</idno>
+            </place>
+            <place xml:id="place_d9e460">
+               <placeName>Hungary</placeName>
+               <location>
+                  <geo decls="#LatLng">47.0 20.0</geo>
+               </location>
+               <idno>http://sws.geonames.org/719819/</idno>
+               <idno>mp-register-1867d9e460</idno>
+            </place>
+            <place xml:id="place_d9e466">
+               <placeName>Vejprty</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e466</idno>
+            </place>
+            <place xml:id="place_d9e470">
+               <placeName>Villach</placeName>
+               <location>
+                  <geo decls="#LatLng">46.61028 13.85583</geo>
+               </location>
+               <idno>http://sws.geonames.org/2762372/</idno>
+               <idno>mp-register-1867d9e470</idno>
+            </place>
+            <place xml:id="place_d9e472">
+               <placeName>Vorarlberg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.25 9.91667</geo>
+               </location>
+               <idno>http://sws.geonames.org/2762300/</idno>
+               <idno>mp-register-1867d9e472</idno>
+            </place>
+            <place xml:id="place_d9e480">
+               <placeName>Weipert</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e480</idno>
+            </place>
+            <place xml:id="place_d9e485">
+               <placeName>Wieliczka</placeName>
+               <location>
+                  <geo decls="#LatLng">49.98738 20.06473</geo>
+               </location>
+               <idno>http://sws.geonames.org/755889/</idno>
+               <idno>mp-register-1867d9e485</idno>
+            </place>
+            <place xml:id="place_d9e487">
+               <placeName>Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e487</idno>
+            </place>
+            <place xml:id="place_d9e495">
+               <placeName>Zala</placeName>
+               <location>
+                  <geo decls="#LatLng">46.66667 16.83333</geo>
+               </location>
+               <idno>http://sws.geonames.org/3042613/</idno>
+               <idno>mp-register-1867d9e495</idno>
+            </place>
+            <place xml:id="place_d9e497">
+               <placeName>Žatec</placeName>
+               <location>
+                  <geo decls="#LatLng">50.32717 13.54577</geo>
+               </location>
+               <idno>http://sws.geonames.org/3061822/</idno>
+               <idno>mp-register-1867d9e497</idno>
+            </place>
+            <place xml:id="place_d9e499">
+               <placeName>Znaim</placeName>
+               <location>
+                  <geo decls="#LatLng">None None</geo>
+               </location>
+               <idno>mp-register-1867d9e499</idno>
+            </place>
+            <place xml:id="place_d9e501">
+               <placeName>Znaim</placeName>
+               <location>
+                  <geo decls="#LatLng">48.8555 16.0488</geo>
+               </location>
+               <idno>http://sws.geonames.org/3061344/</idno>
+               <idno>mp-register-1867d9e501</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
 </TEI>

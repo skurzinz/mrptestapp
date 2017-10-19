@@ -1,51 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage" exclude-result-prefixes="#all" version="3.0">
 	<!-- neu 2016-07-28 Dario Kampkaspar (DK) – kampkaspar@hab.de -->
-
+	
 	<xsl:output indent="yes"/>
-
+	
 	<xsl:template match="/">
 		<teiCorpus>
-			<TEI>
-				<xsl:apply-templates select="//w:body"/>
-			</TEI>
+			<xsl:apply-templates select="//w:body"/>
 		</teiCorpus>
 	</xsl:template>
-
+	
 	<xsl:template match="w:body">
-		<teiHeader>
-			<fileDesc>
-				<titleStmt>
-					<title type="short">Register</title>
-				</titleStmt>
-				<publicationStmt>
-					<p/>
-				</publicationStmt>
-				<sourceDesc>
-					<p/>
-				</sourceDesc>
-			</fileDesc>
-		</teiHeader>
-		<text>
-			<body>
-				<xsl:call-template name="loop"/>
-			</body>
-		</text>
-
+		<xsl:call-template name="loop"/>
 	</xsl:template>
-
+	
 	<xsl:template name="loop">
 		<xsl:variable name="temp">
 			<xsl:apply-templates select="w:p[position() &gt; 2]"/>
 		</xsl:variable>
-		<listPlace>
-			<xsl:apply-templates select="$temp/*:place"/>
-		</listPlace>
-		<listPerson>
-			<xsl:apply-templates select="$temp/*:person"/>
-		</listPerson>
+		<TEI>
+			<teiHeader>
+				<fileDesc>
+					<titleStmt>
+						<title type="short">listplace</title>
+					</titleStmt>
+					<publicationStmt>
+						<p/>
+					</publicationStmt>
+					<sourceDesc>
+						<p/>
+					</sourceDesc>
+				</fileDesc>
+			</teiHeader>
+			<text>
+				<body>
+					<listPlace>
+						<xsl:apply-templates select="$temp/*:place"/>
+					</listPlace>
+				</body>
+			</text>
+		</TEI>
+		<TEI>
+			<teiHeader>
+				<fileDesc>
+					<titleStmt>
+						<title type="short">listperson</title>
+					</titleStmt>
+					<publicationStmt>
+						<p/>
+					</publicationStmt>
+					<sourceDesc>
+						<p/>
+					</sourceDesc>
+				</fileDesc>
+			</teiHeader>
+			<text>
+				<body>
+					<listPerson>
+						<xsl:apply-templates select="$temp/*:person"/>
+					</listPerson>
+				</body>
+			</text>
+		</TEI>
 	</xsl:template>
-
+	
 	<xsl:template match="tei:person">
 		<person>
 			<xsl:attribute name="xml:id" select="generate-id(.)"/>
@@ -69,7 +87,7 @@
 			</persName>
 		</person>
 	</xsl:template>
-
+	
 	<xsl:template match="tei:place">
 		<place>
 			<xsl:choose>
@@ -100,7 +118,7 @@
 			</xsl:choose>
 		</place>
 	</xsl:template>
-
+	
 	<xsl:template match="w:p">
 		<xsl:variable name="elem">
 			<xsl:choose>
