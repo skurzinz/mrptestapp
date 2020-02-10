@@ -1,0 +1,91 @@
+.card-header {
+    text-align: center;
+}
+
+.card-header h1,
+.card-header i.fas {
+    display: inline-block;
+    font-size: 2.5rem;
+    /* padding-right: 0.8rem; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.card-header a:hover {
+    cursor: pointer;
+}
+
+.card-header h3:after {
+    display: none;
+}
+
+.yearbtn {
+    padding: 3px;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.yearbtn:hover {
+    background-color: hsl(219, 57%, 80%);
+}
+
+.yearbtn.selected {
+    box-shadow: 0 0 0 0.2rem hsl(219, 57%, 40%);
+}
+
+.calendar table.month td.day div.day-content:hover {
+    background: hsla(219, 57%, 80%, 0.5);
+}
+
+.calendar .calendar-header table th {
+    padding: 0;
+}
+
+#calendar {
+    overflow: visible;
+}
+
+#calendar .months-container .month-container {
+    /* this is set to 200px in js-year-calendar.min.css */
+    height: 230px;
+}
+
+#calendar td.day.one-event {
+    box-shadow: hsl(219, 57%, 40%) 0px -4px 0px 0px inset;
+}
+
+#calendar td.day.several-events {
+    box-shadow: hsl(219, 57%, 40%) 0px -6px 0px 0px inset;
+}
+
+#calendar .popover-body div.event-tooltip-content {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#calendar .popover-body div.event-tooltip-content a.event-tooltip-entry {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.35ex;
+}
+
+#calendar .popover-body div.event-tooltip-content a.event-tooltip-entry:hover {
+    background-color: hsl(219, 57%, 80%);
+}
+
+#calendar .popover-body div.event-tooltip-content a.event-tooltip-entry:nth-child(odd):not(:hover) {
+    background-color: #f7f7f7;
+}
+#calendar .popover-body div.event-tooltip-content a.event-tooltip-entry:nth-child(even):not(:hover) {
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
