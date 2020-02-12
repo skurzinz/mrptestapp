@@ -1,71 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div class="templates:surround?with=templates/page.html&amp;at=content">
-    <link rel="stylesheet" href="../resources/css/bootstrap-year-calendar.min.css"/>
-    <script src="../resources/js/bootstrap-year-calendar-bs4/bootstrap-year-calendar.min.js"/>
-    <style>
-        
-        .container-fluid &gt; .card {
-        border-top:none;
-        }
-        
-        
-        th.prev::before {
-        font-family:"Font Awesome 5 Free";
-        font-weight: 900;
-        content:"\f053";
-        }
-        
-        th.next::before {
-        font-family:"Font Awesome 5 Free";
-        font-weight: 900;
-        content:"\f054";
-        }
-        
-        
-        .calendar .year-neighbor, .calendar .year-neighbor2  {
-        display:none !important;
-        }
-        
-        .calendar .card {
-        border-top:none;
-        }
-        
-        .calendar .calendar-header table th {
-        padding:0;
-        }
-        
-        .yearscol {
-        visibility: hidden;
-        }
-        
-        .yearbtn {
-        padding:2px;
-        border-radius:0;
-        background-color:transparent;
-        border:none;
-        font-size:0.9rem;
-        }
-        
-        
-        #years-table .btn-light:focus, #years-table .btn-light.focus {
-        box-shadow: 0 0 0 0.2rem rgba(3, 122, 51, 1);
-        }
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="../resources/css/calendar.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://unpkg.com/js-year-calendar@1.0.0-alpha.7/dist/js-year-calendar.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/datatables.min.css" />
+    <script src="https://unpkg.com/js-year-calendar@1.0.0-alpha.7/dist/js-year-calendar.min.js"></script>
+    <script src="https://unpkg.com/js-year-calendar@1.0.0-alpha.7/locales/js-year-calendar.de.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/datatables.min.js"/>
+    <script src="$app-root/resources/js/datatables/dataTables.keepConditions.min.js" />
+
     <div class="container-fluid">
-        <div class="loader" id="loader"/>
         <div class="card">
-            <div class="card-header" style="text-align:center">
-                <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;">
-                    Kalender</h1>
+            <div class="card-header" style="text-align:center;">
+                <h1>Kalender</h1>
                 <a>
-                    <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
+                    <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal" />
                 </a>
-                <a style="padding-left:5px;" href="../analyze/cache/calendar_datasource.json">
-                    <i class="fas fa-download" title="Data"/>
+                <span>|</span>
+                <a href="../analyze/calendar_datasource.xql">
+                    <i class="fas fa-download" title="Data" />
                 </a>
             </div>
-            <div class="card-body containingloader">
+            <div class="card-body">
                 <div class="row">
                     <div class="col-sm-2 yearscol">
                         <div class="row">
@@ -74,35 +33,50 @@
                             </div>
                         </div>
                         <div class="row justify-content-md-center" id="years-table">
-                            
                         </div>
                     </div>
-                    <div class="col-sm-10">
-                        <div id="calendar"/>
-                    </div>
+                    <div class="col-sm-10" id="calendar" />
                 </div>
             </div>
         </div>
+    <div class="card hidden" id="calendar-selection-details">
+        <div class="card-header" style="text-align:center;">
+            <h3>Auswahl</h3>
+        </div>
+        <div class="card-body">
+            <table id="myTable" class="table table-striped table-condensed table-hover">
+                <thead>
+                    <tr align="center" font-size="1.0em">
+                        <th>Abt.</th>
+                        <th>Bd.</th>
+                        <th>Titel/ Sitzung/ Tagesordnung</th>
+                        <th>Datum</th>
+                        <th>Dokument</th>
+                    </tr>
+                </thead>
+                <tr data-template="app:toc-tops" />
+            </table>
+        </div>
     </div>
-    
-    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Das Tagebuch in Kalenderansicht</h5>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">About the Calendar</h5>
+            </div>
+            <div class="modal-body">
+                <p>
+                    The Calendar depicts the documents by their date of creation
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-    <script src="../resources/js/bootstrap-year-calendar-bs4/languages/bootstrap-year-calendar.de.js" charset="UTF-8"/>
-    <script type="text/javascript" src="../resources/js/calendar.custom.js" charset="UTF-8"/>
-    
+</div>
+
+<script src="../resources/js/mrp-calendar.js"></script>
 </div>
