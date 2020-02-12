@@ -3,9 +3,9 @@
     
     <!--    see https://arche.acdh.oeaw.ac.at/browser/formats-filenames-and-metadata#metadata -->
 
-    <acdh:Project rdf:about="https://id.acdh.oeaw.ac.at/dsebaseapp/project">
-        <acdh:hasTitle>dsebaseapp</acdh:hasTitle>
-        <acdh:hasDescription>dsebaseapp</acdh:hasDescription>
+    <acdh:Project rdf:about="https://id.acdh.oeaw.ac.at/mrp/project">
+        <acdh:hasTitle>mrp</acdh:hasTitle>
+        <acdh:hasDescription>mrp</acdh:hasDescription>
         <acdh:hasStartDate>2010-07-01</acdh:hasStartDate>
         <acdh:hasEndDate>2015-06-30</acdh:hasEndDate>
         <acdh:hasPrincipalInvestigator>
@@ -23,10 +23,10 @@
     </acdh:Project>
     
 <!--    top collection -->
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/dsebaseapp">
-        <acdh:hasTitle>dsebaseapp collection</acdh:hasTitle>
-        <acdh:hasDescription>The dsebaseapp collection ...</acdh:hasDescription>
-        <acdh:hasRelatedProject rdf:resource="https://id.acdh.oeaw.ac.at/dsebaseapp/project"/>
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/mrp">
+        <acdh:hasTitle>mrp collection</acdh:hasTitle>
+        <acdh:hasDescription>The mrp collection ...</acdh:hasDescription>
+        <acdh:hasRelatedProject rdf:resource="https://id.acdh.oeaw.ac.at/mrp/project"/>
         <acdh:hasContact>
             <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
         </acdh:hasContact>
@@ -38,20 +38,20 @@
         </acdh:hasMetadataCreator>
     </acdh:Collection>
     
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/dsebaseapp/meta">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/mrp/meta">
         <acdh:hasTitle>Meta</acdh:hasTitle>
-        <acdh:hasDescription>Contains information about dsebaseapp</acdh:hasDescription>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/dsebaseapp"/>
+        <acdh:hasDescription>Contains information about mrp</acdh:hasDescription>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/mrp"/>
     </acdh:Collection>
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/dsebaseapp/editions">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/mrp/editions">
         <acdh:hasTitle>Editions</acdh:hasTitle>
-        <acdh:hasDescription>Collection of XML/TEI documents gathered in dsebaseapp</acdh:hasDescription>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/dsebaseapp"/>
+        <acdh:hasDescription>Collection of XML/TEI documents gathered in mrp</acdh:hasDescription>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/mrp"/>
     </acdh:Collection>
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/dsebaseapp/indices">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/mrp/indices">
         <acdh:hasTitle>Indices</acdh:hasTitle>
-        <acdh:hasDescription>Collection indices/register documents describing entities mentioned in dsebaseapp</acdh:hasDescription>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/dsebaseapp"/>
+        <acdh:hasDescription>Collection indices/register documents describing entities mentioned in mrp</acdh:hasDescription>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/mrp"/>
     </acdh:Collection>
     
 </rdf:RDF>

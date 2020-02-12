@@ -1,10 +1,10 @@
 version: '2'
 services:
-  dsebaseapp:
-    image: "acdh/dsebaseapp"
+  mrp:
+    image: "acdh/mrp"
     labels:
-      - traefik.backend=dsebaseapp
-      - traefik.frontend.rule=Host:dsebaseapp.sisyphos.arz.oeaw.ac.at
+      - traefik.backend=mrp
+      - traefik.frontend.rule=Host:mrp.sisyphos.arz.oeaw.ac.at
       - traefik.docker.network=web
       - traefik.port=8080
     networks:

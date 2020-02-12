@@ -11,8 +11,8 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :)
 
 let $archeURL := "https://id.acdh.oeaw.ac.at/"
-let $projectURL := 'dsebaseapp/'
-let $dataURL := 'dsebaseapp/'
+let $projectURL := 'mrp/'
+let $dataURL := 'mrp/'
 let $idURL := $archeURL||$projectURL||$dataURL
 
 

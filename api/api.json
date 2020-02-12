@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is the API for [dsebaseapp-Web-App](https://dsebaseapp.acdh.oeaw.ac.at).",
+    "description": "This is the API for [mrp-Web-App](https://mrp.acdh.oeaw.ac.at).",
     "version": "v1.0",
-    "title": "dsebaseapp API",
+    "title": "mrp API",
     "termsOfService": "../pages/imprint.html",
     "contact": {
       "email": "peter.andorfer@oeaw.ac.at"
@@ -14,7 +14,7 @@
     }
   },
 
-  "basePath": "/exist/restxq/dsebaseapp/api",
+  "basePath": "/exist/restxq/mrp/api",
   "tags": [
     {
       "name": "about",

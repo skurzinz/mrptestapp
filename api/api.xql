@@ -161,7 +161,7 @@ declare variable $api:XML :=
 
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/about")
+    %rest:path("/mrp/api/about")
     %rest:query-param("page[number]", "{$pageNumber}", 1)
     %rest:query-param("page[size]", "{$pageSize}", 20)
     %rest:query-param("format", "{$format}", 'json')
@@ -169,13 +169,13 @@ function api:api-about($format as xs:string*, $pageNumber as xs:integer*, $pageS
     let $endpoints := 
         <result>
             <ep>
-                <url>/dsebaseapp/api/collections</url>
+                <url>/mrp/api/collections</url>
                 <name>list collections</name>
                 <description>API-Endpoint to list all child collections of the app's data collection</description>
                 <group>collections</group>
             </ep>
             <ep>
-                <url>{"/dsebaseapp/api/collections/{$collection}"}</url>
+                <url>{"/mrp/api/collections/{$collection}"}</url>
                 <name>list documents per collection</name>
                 <description>API-Endpoint to list all documents stored in the passed in collection</description>
                 <group>documents</group>
@@ -250,7 +250,7 @@ function api:api-about($format as xs:string*, $pageNumber as xs:integer*, $pageS
 
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/collections")
+    %rest:path("/mrp/api/collections")
     %rest:query-param("page[number]", "{$pageNumber}", 1)
     %rest:query-param("page[size]", "{$pageSize}", 20)
     %rest:query-param("format", "{$format}", 'json')
@@ -297,7 +297,7 @@ function api:api-list-collections($format as xs:string*, $pageNumber as xs:integ
 :)
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/collections/{$collection}")
+    %rest:path("/mrp/api/collections/{$collection}")
     %rest:query-param("page[number]", "{$pageNumber}", 1)
     %rest:query-param("page[size]", "{$pageSize}", 20)
     %rest:query-param("format", "{$format}", 'json')
@@ -319,7 +319,7 @@ function api:api-list-documents($collection as xs:string, $format as xs:string*,
 
 declare
     %rest:GET
-    %rest:path("/dsebaseapp/api/entities")
+    %rest:path("/mrp/api/entities")
     %rest:query-param("page[number]", "{$pageNumber}", 1)
     %rest:query-param("page[size]", "{$pageSize}", 20)
     %rest:query-param("format", "{$format}", 'json')
@@ -370,7 +370,7 @@ function api:api-list-entities($pageNumber as xs:integer*, $pageSize as xs:integ
 
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/collections/{$collection}/{$id}")
+    %rest:path("/mrp/api/collections/{$collection}/{$id}")
     %rest:query-param("format", "{$format}", 'xml')
 function api:api-show-doc($collection as xs:string, $id as xs:string, $format as xs:string*) {
     let $result := doc($config:app-root||'/data/'||$collection||'/'||$id)
@@ -394,7 +394,7 @@ function api:api-show-doc($collection as xs:string, $id as xs:string, $format as
 
 declare
     %rest:GET
-    %rest:path("/dsebaseapp/api/entities/{$id}")
+    %rest:path("/mrp/api/entities/{$id}")
 function api:api-show-entity($id as xs:string){
     let $entity := collection($api:indices)//id($id)
     return
@@ -410,7 +410,7 @@ function api:api-show-entity($id as xs:string){
 
 declare
     %rest:GET
-    %rest:path("/dsebaseapp/api/entity-types")
+    %rest:path("/mrp/api/entity-types")
     %rest:query-param("page[number]", "{$pageNumber}", 1)
     %rest:query-param("page[size]", "{$pageSize}", 20)
     %rest:query-param("format", "{$format}", 'json')
@@ -460,7 +460,7 @@ function api:api-list-entity-types($pageNumber as xs:integer*, $pageSize as xs:i
 
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/entity-types/{$id}")
+    %rest:path("/mrp/api/entity-types/{$id}")
 function api:api-show-ent-type-doc($id as xs:string) {
     let $result := doc($api:indices||'/'||$id)
     return 
@@ -477,7 +477,7 @@ function api:api-show-ent-type-doc($id as xs:string) {
 :)
 declare 
     %rest:GET
-    %rest:path("/dsebaseapp/api/kwic/collections/{$collection}")
+    %rest:path("/mrp/api/kwic/collections/{$collection}")
     %rest:query-param("q", "{$q}", '')
 function api:api-kwic($collection as xs:string, $q as xs:string*) {
     if ($q != "") then

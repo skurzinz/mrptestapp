@@ -9,7 +9,7 @@ declare option exist:serialize "method=xml media-type=text/xml omit-xml-declarat
 (: script to generate a cmfi file from a collection of documents using the correspdesc module
  : you can pass in via url-param @baseURL :)
 
-let $baseURL := request:get-parameter("baseURL", "https://dsebaseapp-korrespondenz.acdh.oeaw.ac.at")
+let $baseURL := request:get-parameter("baseURL", "https://mrp-korrespondenz.acdh.oeaw.ac.at")
 
 (: create the CMFI document:)
 let $CMFI := 

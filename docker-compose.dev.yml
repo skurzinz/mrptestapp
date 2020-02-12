@@ -1,7 +1,7 @@
 version: '2'
 services:
-  dsebaseapp:
-    image: "acdh/dsebaseapp"
+  mrp:
+    image: "acdh/mrp"
     build:
       context: .
       dockerfile: Dockerfile

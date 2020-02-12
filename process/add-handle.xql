@@ -13,7 +13,7 @@ import module namespace app="http://www.digital-archiv.at/ns/templates" at "../m
 (: a script to create handle pids and write them as <tei:idno> elements into the according TEI-Files, 
  : based upon https://github.com/acdh-oeaw/cr-xq-mets/blob/master/src/modules/resource/handle.xqm
  : call with ?auth=YOURUSERNAME:YOURPASSWORD:)
-let $archeBaseUrl := "https://id.acdh.oeaw.ac.at/dsebaseapp"
+let $archeBaseUrl := "https://id.acdh.oeaw.ac.at/mrp"
 let $versionNo := "v1"
 let $root := if ($versionNo != "")
     then

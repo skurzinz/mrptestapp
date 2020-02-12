@@ -13,7 +13,7 @@ let $map := map{
     "subtitle": "Digital Scholarly Editions Base Application",
     "author": $app:authors,
     "description": $app:description,
-    "github": "https://github.com/KONDE-AT/dsebaseapp",
+    "github": "https://github.com/KONDE-AT/mrp",
     "purpose_de": $purpose_de,
     "purpose_en": $purpose_en,
     "app_type": "digital-edition",
