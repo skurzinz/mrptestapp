@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="xar" name="dsebaseapp">
+    <xmlproperty file="expath-pkg.xml"/>
+    <property name="project.version" value="${package(version)}"/>
+    <property name="project.app" value="dsebaseapp"/>
+    <property name="build.dir" value="build"/>
+    <!--<copy todir="data/editions/">
+        <fileset dir="../mp-retro/102_derived_tei">
+            <include name="MRP*.xml"/>
+            <exclude name="debug"/>
+        </fileset>
+    </copy>-->
+    <target name="xar">
+        <mkdir dir="${build.dir}"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* data/temp/** temp/** data/editions/debug**"/>
+    </target>
+</project>
