@@ -1,4 +1,5 @@
 /build/old_mp-app-1.0.xar
 /build/mp-app-1.0.xar
+/build/*
 /.project
 ./sync.xql
