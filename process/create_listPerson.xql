@@ -14,7 +14,7 @@ let $listPerson :=
 <listPerson>{
     for $person in $persons
         let $type := 'person'
-        let $namestring := translate(string-join($person//text(), ' '), '()', '')
+        let $namestring := translate(string-join($person//*:surname/text(), ' '), '()', '')
         let $parts := tokenize($namestring, ' ')
         let $nr_parts := count($parts)
         let $name := if ($nr_parts = 1)
@@ -22,8 +22,12 @@ let $listPerson :=
                 $parts[1]
             else if (string-length(normalize-space($parts[1])) = 2) 
                 then string-join(($parts[1], $parts[2]), ' ')
+            else if ($nr_parts = 3)
+                then string-join(($parts[1], $parts[2], $parts[3]), ' ')
+            else if ($nr_parts = 2)
+                then string-join(($parts[1], $parts[2]), ' ')
             else
-                $parts[1]
+                $namestring
         let $string := if ($name)
             then
                 $name
