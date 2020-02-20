@@ -10,11 +10,12 @@ let $yearPrefix := request:get-parameter('year', '')
 for $x in collection($app:editions)//tei:TEI[*//tei:meeting//tei:date[@when castable as xs:date]]
     let $startDate := data($x//tei:meeting/tei:date/@when[1])
     let $name := normalize-space(string-join($x//tei:body/tei:div[1]/tei:head[1]/tei:title[@type='descr']//text(), ' ')) 
-    let $items := for $i in $x//tei:list[@type='agenda']/tei:item return array { normalize-space(string-join($i//text(), ' ')), data($i/tei:ref/@target) }
-    let $id := app:hrefToDoc($x) (: data($x/@ref) :)
+    let $items := for $i in $x//tei:list[@type='agenda']/tei:item return map { "name": normalize-space(string-join($i//text(), ' ')), "link": data($i/tei:ref/@target) }
+    let $id := app:getDocName($x) (: data($x/@ref) :)
     where fn:starts-with($startDate, $yearPrefix) 
     return map { "name": $name,
         "items": $items, 
         "startDate": $startDate,
         "id": $id } 
+
 
