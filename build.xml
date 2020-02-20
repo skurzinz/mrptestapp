@@ -4,14 +4,19 @@
     <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="mrp"/>
     <property name="build.dir" value="build"/>
-    <!--<copy todir="data/editions/">
+    <copy todir="data/editions/">
         <fileset dir="../mp-retro/102_derived_tei">
             <include name="MRP*.xml"/>
             <exclude name="debug"/>
         </fileset>
-    </copy>-->
+    </copy>
+    <copy todir="data/indices/">
+        <fileset dir="../mp-retro/102_derived_tei/indices/">
+            <include name="list*.xml"/>
+        </fileset>
+    </copy>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* data/temp/** temp/** data/editions/**"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* data/temp/** temp/** "/>
     </target>
 </project>

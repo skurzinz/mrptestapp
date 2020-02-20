@@ -7,7 +7,8 @@
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>mrp</target>
+    <target>mrp</target><!-- enable for build -->
+<!--   <target>mp-app</target>--><!-- enable for sync -->
     <prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>
     <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="" user="admin" group="dba" mode="rw-rw-r--"/>
