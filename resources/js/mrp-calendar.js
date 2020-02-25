@@ -97,7 +97,7 @@ var mrpCalendar = (function (window, document) {
             showDetailsForRange(ev.startDate, ev.endDate);
         });
 
-        detailsTable = $('#myTable').DataTable({
+        detailsTable = $('#calendar-details-table').DataTable({
             keepConditions: true,
             dom: 'Bfrtip',
             buttons: [
@@ -105,19 +105,29 @@ var mrpCalendar = (function (window, document) {
             ],
             paging: false,
             columns: [
-                { "type": "string" },
-                { "type": "string" },
-                { "type": "string" },
                 {
+                    "title": "Datum",
                     "type": "date",
                     render: function (data, type, row) {
                         if (type === "sort" || type === "type") {
                             return data;
                         }
-                        return data.toLocaleDateString('de', localeDateOptions);
+                        if (data.toLocaleDateString) {
+                            return data.toLocaleDateString('de', localeDateOptions);
+                        }
+                        else {
+                            return data;
+                        }
                     }
                 },
-                { "type": "html" }
+                {
+                    "title": "Titel / Sitzung / Tagesordnung",
+                    "type": "string"
+                },
+                {
+                    "title": "Dokument",
+                    "type": "html"
+                }
             ]
         });
     });
@@ -150,12 +160,11 @@ var mrpCalendar = (function (window, document) {
         else {
             detailsRootElement.classList.remove('hidden');
             events.forEach(ev => {
+                var html_topics = eventAsDetailsTableHtml(ev);
                 var fileName = getFileNameFromUrl(ev.id);
                 detailsTable.row.add([
-                    null,
-                    null,
-                    ev.name,
                     ev.startDate,
+                    html_topics,
                     '<a href="' + ev.id + '" target="' + linkWindowTarget + '">' + fileName + '</a>'
                 ]);
             });
@@ -232,27 +241,24 @@ var mrpCalendar = (function (window, document) {
         var m = eObj.startDate.substring(5, 7);
         var d = eObj.startDate.substring(8, 10);
         var bothDates = new Date(j, m - 1, d);
+        window.console.log(eObj);
         return {
             id: eObj.id,
             name: eObj.name,
-            color: '#286090',
             startDate: bothDates,
-            endDate: bothDates
+            endDate: bothDates,
+            items: eObj.items
         };
     };
 
     var createPopoverContent = function (e) {
         if (e.events.length > 0) {
-            var content = '<div class="event-tooltip-content">';
-            for (var i in e.events) {
-                var item_name = (e.events[i].name !== '' ? e.events[i].name : '&lt;kein Titel&gt;');
-                if (item_name.length > maxPopoverEntryLength) {
-                    item_name = item_name.substring(0, maxPopoverEntryLength) + '...';
-                }
-                content += '<a class="event-tooltip-entry" href="' + e.events[i].id + '" target="' + linkWindowTarget + '">' + item_name + '</a>'
+            return `<div class="event-tooltip-content">
+            ${e.events
+                .map(ev => `<a class="event-tooltip-entry" href="${ev.id}" target="${linkWindowTarget}"><h4>${ev.name}</h4><ul>${eventItemsAsListItems(ev.items)}</ul></a>`)
+                .join('')
             }
-            content += '</div>';
-            return content;
+            </div>`;
         }
         else {
             return null;
@@ -319,6 +325,35 @@ var mrpCalendar = (function (window, document) {
             })
             // window.location = ids[1]
             window.open(ids[1], target = linkWindowTarget);
+        }
+    };
+
+    var eventAsDetailsTableHtml = function (ev) {
+        var base_url = ev.id;
+        window.console.log(ev);
+        window.console.log(base_url);
+        return `<h4>${ev.name}</h4><ul>${eventItemsAsListItemLinks(ev.items, base_url)}</ul>`;
+    };
+
+    var eventItemsAsListItems = function (items, base_url) {
+        if (!items.map) {
+            return '';
+        }
+        else {
+            return items
+                .map(item => `<li>${item.name}</li>`)
+                .join('');
+        }
+    };
+
+    var eventItemsAsListItemLinks = function (items, base_url) {
+        if (!items.map) {
+            return '';
+        }
+        else {
+            return items
+                .map(item => `<li><a href="${base_url}${item.link}" target="${linkWindowTarget}">${item.name}</a></li>`)
+                .join('');
         }
     };
 
