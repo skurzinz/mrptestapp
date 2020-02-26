@@ -60,6 +60,10 @@
     box-shadow: hsl(219, 57%, 40%) 0px -6px 0px 0px inset;
 }
 
+#calendar .popover {
+    max-width: 350px;
+}
+
 #calendar .popover-body div.event-tooltip-content {
     margin-left: 0;
     margin-bottom: 0;

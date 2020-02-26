@@ -8,7 +8,7 @@ var mrpCalendar = (function (window, document) {
     var detailsHeaderElement;
     var detailsTable;
     var linkWindowTarget = "mrp-details";
-    var showLinkPrefix = "show.html?document="
+    var showLinkPrefix = "show.html?document=";
 
     var localeDateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     var maxPopoverEntryLength = 500;
