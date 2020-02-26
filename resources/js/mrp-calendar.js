@@ -8,6 +8,7 @@ var mrpCalendar = (function (window, document) {
     var detailsHeaderElement;
     var detailsTable;
     var linkWindowTarget = "mrp-details";
+    var showLinkPrefix = "show.html?document=";
 
     var localeDateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     var maxPopoverEntryLength = 500;
@@ -255,7 +256,7 @@ var mrpCalendar = (function (window, document) {
         if (e.events.length > 0) {
             return `<div class="event-tooltip-content">
             ${e.events
-                .map(ev => `<a class="event-tooltip-entry" href="${ev.id}" target="${linkWindowTarget}"><h4>${ev.name}</h4><ul>${eventItemsAsListItems(ev.items)}</ul></a>`)
+                .map(ev => `<a class="event-tooltip-entry" href="${showLinkPrefix}${ev.id}" target="${linkWindowTarget}"><h4>${ev.name}</h4><ul>${eventItemsAsListItems(ev.items)}</ul></a>`)
                 .join('')
             }
             </div>`;
@@ -352,7 +353,7 @@ var mrpCalendar = (function (window, document) {
         }
         else {
             return items
-                .map(item => `<li><a href="${base_url}${item.link}" target="${linkWindowTarget}">${item.name}</a></li>`)
+                .map(item => `<li><a href="${showLinkPrefix}${base_url}${item.link}" target="${linkWindowTarget}">${item.name}</a></li>`)
                 .join('');
         }
     };
