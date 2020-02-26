@@ -20,3 +20,4 @@ for $x in collection($app:editions)//tei:TEI[*//tei:meeting//tei:date[@when cast
         "id": $id } 
 }
 
+
